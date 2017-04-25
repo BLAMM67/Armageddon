@@ -1,0 +1,7 @@
+[
+  {
+    "mob": ["PigZombie"],
+    "result": "allow",
+    "hostile": true   
+  }
+]

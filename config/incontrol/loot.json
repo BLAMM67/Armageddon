@@ -1,0 +1,18 @@
+[
+  {
+    "mob": "Slime",
+    "item": "tconstruct:edible@4"
+  },
+  {
+    "mob": "tconstruct.blueslime",
+    "item": "tconstruct:edible@4"
+  },
+  {
+    "mob": "Slime",
+    "item": "tconstruct:edible@2"
+  },
+  {
+    "mob": "tconstruct.blueslime",
+    "item": "tconstruct:edible@2"
+  }
+]

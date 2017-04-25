@@ -1,0 +1,97 @@
+[
+  {
+    "dimension": 0,
+    "maxheight": 50,
+    "mobs": [
+      {
+        "mob": "abyssalcraft.shadowcreature",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxheight": 30,
+    "mobs": [
+      {
+        "mob": "abyssalcraft.shadowmonster",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": ["Desert","DesertHills"],
+    "mobs": [
+      {
+        "mob": "wtfcore.FireElemental",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "Zombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "PigZombie",
+        "maxlight": 16,
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": ["Swampland","Coralium Infested Swamp"],
+    "mobs": [
+      {
+        "mob": "tconstruct.blueslime",
+        "weight": 500,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "minheight": 95,
+    "mobs": [
+      {
+        "mob": "ToughAsNails.freeze",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": ["FrozenOcean","FrozenRiver","Ice Plains","Ice Mountains","Cold Taiga","Cold Taiga Hills"],
+    "mobs": [
+      {
+        "mob": "ToughAsNails.freeze",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  }
+]
