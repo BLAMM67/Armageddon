@@ -1,0 +1,12 @@
+crash-reports\*
+journeymap\*
+logs\*
+mods\*
+resourcepacks\*
+saves\*
+.curseclient
+minecraftinstance.json
+minetweaker.log
+options.txt
+usercache.json
+usernamecache.json
