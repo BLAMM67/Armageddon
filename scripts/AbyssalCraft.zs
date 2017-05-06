@@ -3,9 +3,9 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
 
-print("*** Tweaking AbyssalCraft ***");
 // AbyssalCraft Integration
 // https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods
+print("*** Tweaking AbyssalCraft ***");
 
 // Having the statues in an ore makes quests easier
 val oreStatue = <ore:statue>;
@@ -123,3 +123,35 @@ recipes.addShaped(<abyssalcraft:cchunk>, [
 	[<abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>], 
 	[<abyssalcraft:ccluster9>, <abyssalcraft:abycorore>, <abyssalcraft:ccluster9>], 
 	[<abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>]]);
+
+// Remove the vanilla style tools
+recipes.remove(<abyssalcraft:dsword>);
+recipes.remove(<abyssalcraft:dpick>);
+recipes.remove(<abyssalcraft:daxe>);
+recipes.remove(<abyssalcraft:dshovel>);
+recipes.remove(<abyssalcraft:dhoe>);
+recipes.remove(<abyssalcraft:apick>);
+recipes.remove(<abyssalcraft:asword>);
+recipes.remove(<abyssalcraft:aaxe>);
+recipes.remove(<abyssalcraft:ashovel>);
+recipes.remove(<abyssalcraft:ahoe>);
+recipes.remove(<abyssalcraft:corsword>);
+recipes.remove(<abyssalcraft:corpick>);
+recipes.remove(<abyssalcraft:coraxe>);
+recipes.remove(<abyssalcraft:corshovel>);
+recipes.remove(<abyssalcraft:corhoe>);
+recipes.remove(<abyssalcraft:dreadiumsword>);
+recipes.remove(<abyssalcraft:dreadiumpickaxe>);
+recipes.remove(<abyssalcraft:dreadiumaxe>);
+recipes.remove(<abyssalcraft:dreadiumshovel>);
+recipes.remove(<abyssalcraft:dreadiumhoe>);
+recipes.remove(<abyssalcraft:ethaxiumsword>);
+recipes.remove(<abyssalcraft:ethaxiumpickaxe>);
+recipes.remove(<abyssalcraft:ethaxiumaxe>);
+recipes.remove(<abyssalcraft:ethaxiumshovel>);
+recipes.remove(<abyssalcraft:ethaxiumhoe>);
+recipes.remove(<abyssalcraft:dreadhilt>);
+recipes.remove(<abyssalcraft:dreadkatana>);
+recipes.remove(<abyssalcraft:dreadblade>);
+recipes.remove(<abyssalcraft:corbow>);
+

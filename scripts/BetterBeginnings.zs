@@ -6,52 +6,16 @@ import mods.betterbeginnings.Smelter;
 
 print("*** Tweaking BetterBeginnings ***");
 
-
+// Add some recipies from the furnace to the Kiln
+Kiln.addRecipe(<tconstruct:materials>, <tconstruct:soil>);
 val potion = <minecraft:potion>;
 val waterBottle = potion.withTag({Potion:"minecraft:water"});
+Kiln.addRecipe(waterBottle, <toughasnails:water_bottle:1>);
 
-Smelter.addRecipe(<abyssalcraft:abybrick:2>, <abyssalcraft:abybrick>);
-Smelter.addRecipe(<abyssalcraft:abydreadbrick:2>, <abyssalcraft:abydreadbrick>);
-Smelter.addRecipe(<abyssalcraft:abydreadstone>, <abyssalcraft:abyssalnitecobblestone>);
-Smelter.addRecipe(<abyssalcraft:abyssalsandglass>, <abyssalcraft:abyssalsand>);
-Smelter.addRecipe(<abyssalcraft:abystone>, <abyssalcraft:abyssalcobblestone>);
-Smelter.addRecipe(<abyssalcraft:coralium>, <abyssalcraft:abycorore>);
-Smelter.addRecipe(<abyssalcraft:coralium>, <abyssalcraft:coraliumore>);
-Smelter.addRecipe(<abyssalcraft:cpearl>, <abyssalcraft:abypcorore>);
-Smelter.addRecipe(<abyssalcraft:cpearl>, <abyssalcraft:coraliumstone>);
-Smelter.addRecipe(<abyssalcraft:cstone>, <abyssalcraft:coraliumcobblestone>);
-Smelter.addRecipe(<abyssalcraft:cstonebrick:2>, <abyssalcraft:cstonebrick>);
-Smelter.addRecipe(<abyssalcraft:darkethaxiumbrick:2>, <abyssalcraft:darkethaxiumbrick>);
-Smelter.addRecipe(<abyssalcraft:darkstone>, <abyssalcraft:darkstone_cobble>);
-Smelter.addRecipe(<abyssalcraft:darkstone_brick:2>, <abyssalcraft:darkstone_brick>);
-Smelter.addRecipe(<abyssalcraft:dreadbrick:2>, <abyssalcraft:dreadbrick>);
-Smelter.addRecipe(<abyssalcraft:dreadstone>, <abyssalcraft:dreadstonecobblestone>);
-Smelter.addRecipe(<abyssalcraft:ethaxiumbrick:2>, <abyssalcraft:ethaxiumbrick>);
-Smelter.addRecipe(<abyssalcraft:ethbrick>, <abyssalcraft:ethaxium>);
-Smelter.addRecipe(<backpack:tanned_leather>, <backpack:bound_leather>);
-Smelter.addRecipe(<immersiveengineering:material:19>, <immersiveengineering:material:18>);
-Smelter.addRecipe(<minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit>);
-Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_boots>);
-Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_chestplate>);
-Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_helmet>);
-Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_leggings>);
-Smelter.addRecipe(<tconstruct:brownstone:4>, <tconstruct:brownstone:3>);
-Smelter.addRecipe(<tconstruct:brownstone>, <tconstruct:brownstone:1>);
-Smelter.addRecipe(<tconstruct:materials:10>, <tconstruct:soil:2>);
-Smelter.addRecipe(<tconstruct:materials:11>, <tconstruct:soil:5>);
-Smelter.addRecipe(<tconstruct:materials:9>, <tconstruct:soil:1>);
-Smelter.addRecipe(<tconstruct:materials>, <tconstruct:soil>);
-Smelter.addRecipe(<tconstruct:seared:4>, <tconstruct:seared:3>);
-Smelter.addRecipe(<tconstruct:slime_channel:1> * 3, <tconstruct:slime_congealed:1>);
-Smelter.addRecipe(<tconstruct:slime_channel:2> * 3, <tconstruct:slime_congealed:2>);
-Smelter.addRecipe(<tconstruct:slime_channel:3> * 3, <tconstruct:slime_congealed:3>);
-Smelter.addRecipe(<tconstruct:slime_channel:4> * 3, <tconstruct:slime_congealed:4>);
-Smelter.addRecipe(<tconstruct:slime_channel> * 3, <tconstruct:slime_congealed>);
-Smelter.addRecipe(<tconstruct:soil:4>, <tconstruct:soil:3>);
-Smelter.addRecipe(waterBottle, <toughasnails:water_bottle:1>);
-
+// Add fried egg to the oven
 Oven.addShapelessRecipe(<abyssalcraft:friedegg>, [<minecraft:egg>]);
 
+// The smelter should be able to produce any ingot
 Smelter.addRecipe(<abyssalcraft:abyingot>, <abyssalcraft:aboots>);
 Smelter.addRecipe(<abyssalcraft:abyingot>, <abyssalcraft:abychunk>);
 Smelter.addRecipe(<abyssalcraft:abyingot>, <abyssalcraft:abydreadore>);
@@ -98,7 +62,10 @@ Smelter.addRecipe(<immersiveengineering:metal>, <immersiveengineering:ore>);
 Smelter.addRecipe(<minecraft:gold_ingot>, <immersiveengineering:metal:19>);
 Smelter.addRecipe(<minecraft:iron_ingot>, <immersiveengineering:metal:18>);
 
+// Don't need or want this
 recipes.remove(<betterbeginnings:noob_wood_sword>);
+
+mods.jei.JEI.hide(<betterbeginnings:campfire>);
 
 /*
 AdvancedCrafting.addRecipe(<minecraft:wooden_axe>,[
@@ -108,4 +75,47 @@ AdvancedCrafting.addRecipe(<minecraft:wooden_axe>,[
 ]
 	, [<minecraft:stick>, <ore:ingotIron>]);
 
+*/
+
+/*
+val potion = <minecraft:potion>;
+val waterBottle = potion.withTag({Potion:"minecraft:water"});
+Smelter.addRecipe(<abyssalcraft:abybrick:2>, <abyssalcraft:abybrick>);
+Smelter.addRecipe(<abyssalcraft:abydreadbrick:2>, <abyssalcraft:abydreadbrick>);
+Smelter.addRecipe(<abyssalcraft:abydreadstone>, <abyssalcraft:abyssalnitecobblestone>);
+Smelter.addRecipe(<abyssalcraft:abyssalsandglass>, <abyssalcraft:abyssalsand>);
+Smelter.addRecipe(<abyssalcraft:abystone>, <abyssalcraft:abyssalcobblestone>);
+Smelter.addRecipe(<abyssalcraft:coralium>, <abyssalcraft:abycorore>);
+Smelter.addRecipe(<abyssalcraft:coralium>, <abyssalcraft:coraliumore>);
+Smelter.addRecipe(<abyssalcraft:cpearl>, <abyssalcraft:abypcorore>);
+Smelter.addRecipe(<abyssalcraft:cpearl>, <abyssalcraft:coraliumstone>);
+Smelter.addRecipe(<abyssalcraft:cstone>, <abyssalcraft:coraliumcobblestone>);
+Smelter.addRecipe(<abyssalcraft:cstonebrick:2>, <abyssalcraft:cstonebrick>);
+Smelter.addRecipe(<abyssalcraft:darkethaxiumbrick:2>, <abyssalcraft:darkethaxiumbrick>);
+Smelter.addRecipe(<abyssalcraft:darkstone>, <abyssalcraft:darkstone_cobble>);
+Smelter.addRecipe(<abyssalcraft:darkstone_brick:2>, <abyssalcraft:darkstone_brick>);
+Smelter.addRecipe(<abyssalcraft:dreadbrick:2>, <abyssalcraft:dreadbrick>);
+Smelter.addRecipe(<abyssalcraft:dreadstone>, <abyssalcraft:dreadstonecobblestone>);
+Smelter.addRecipe(<abyssalcraft:ethaxiumbrick:2>, <abyssalcraft:ethaxiumbrick>);
+Smelter.addRecipe(<abyssalcraft:ethbrick>, <abyssalcraft:ethaxium>);
+Smelter.addRecipe(<backpack:tanned_leather>, <backpack:bound_leather>);
+Smelter.addRecipe(<immersiveengineering:material:19>, <immersiveengineering:material:18>);
+Smelter.addRecipe(<minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit>);
+Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_boots>);
+Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_chestplate>);
+Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_helmet>);
+Smelter.addRecipe(<minecraft:leather>, <minecraft:leather_leggings>);
+Smelter.addRecipe(<tconstruct:brownstone:4>, <tconstruct:brownstone:3>);
+Smelter.addRecipe(<tconstruct:brownstone>, <tconstruct:brownstone:1>);
+Smelter.addRecipe(<tconstruct:materials:10>, <tconstruct:soil:2>);
+Smelter.addRecipe(<tconstruct:materials:11>, <tconstruct:soil:5>);
+Smelter.addRecipe(<tconstruct:materials:9>, <tconstruct:soil:1>);
+Smelter.addRecipe(<tconstruct:seared:4>, <tconstruct:seared:3>);
+Smelter.addRecipe(<tconstruct:slime_channel:1> * 3, <tconstruct:slime_congealed:1>);
+Smelter.addRecipe(<tconstruct:slime_channel:2> * 3, <tconstruct:slime_congealed:2>);
+Smelter.addRecipe(<tconstruct:slime_channel:3> * 3, <tconstruct:slime_congealed:3>);
+Smelter.addRecipe(<tconstruct:slime_channel:4> * 3, <tconstruct:slime_congealed:4>);
+Smelter.addRecipe(<tconstruct:slime_channel> * 3, <tconstruct:slime_congealed>);
+Smelter.addRecipe(<tconstruct:soil:4>, <tconstruct:soil:3>);
+Smelter.addRecipe(waterBottle, <toughasnails:water_bottle:1>);
 */

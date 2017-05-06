@@ -1,7 +1,11 @@
 [
   {
+    "mob": ["Bat", "Ghast", "PigZombie", "tconstruct.blueslime"," ToughAsNails.freeze"],
+    "result": "allow"
+  },
+  {
     "mob": ["PigZombie"],
-    "result": "allow",
-    "hostile": true   
+    "hostile": "true",
+    "result": "allow"
   }
 ]

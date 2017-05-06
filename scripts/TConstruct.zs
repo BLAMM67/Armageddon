@@ -1,6 +1,7 @@
 import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
 
+//http://minetweaker3.powerofbytes.com/wiki/ModTweaker:TConstruct_Support_1.10.2
 print("*** Tweaking TConstruct ***");
 
 // Harvest levels

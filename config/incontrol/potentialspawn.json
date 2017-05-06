@@ -37,34 +37,25 @@
   },
   {
     "dimension": 0,
-    "mobs": [
-      {
-        "mob": "Zombie",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      }
-    ]
-  },
-  {
-    "dimension": 0,
+    "maxlight": 16,
+    "maxcount": "30,PigZombie",
     "mobs": [
       {
         "mob": "PigZombie",
-        "maxlight": 16,
-        "weight": 2,
+        "weight": 1,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
   {
     "dimension": 0,
     "biome": ["Swampland","Coralium Infested Swamp"],
+    "maxcount": "5,tconstruct.blueslime",
     "mobs": [
       {
         "mob": "tconstruct.blueslime",
-        "weight": 500,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
@@ -73,12 +64,41 @@
   {
     "dimension": 0,
     "minheight": 95,
+    "block": ["minecraft:grass","minecraft:dirt","minecraft:gravel","minecraft:stone","minecraft:air"],
     "mobs": [
       {
         "mob": "ToughAsNails.freeze",
         "weight": 5,
         "groupcountmin": 2,
         "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxlight": 10,
+    "seesky": true,
+    "maxcount": "30,Bat",
+    "mobs": [
+      {
+        "mob": "Bat",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxlight": 7,
+    "seesky": true,
+    "maxcount": "1,Ghast",
+    "mobs": [
+      {
+        "mob": "Ghast",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },

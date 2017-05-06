@@ -2,6 +2,9 @@ import mods.betterbeginnings.AdvancedCrafting;
 
 print("*** Tweaking Vanilla ***");
 
+// Someone is adding a 4 gravel recipe for flint. Drop it.
+recipes.removeShaped(<minecraft:flint>);
+
 //Drop durability on all vanilla tools in case players get access to one
 mods.vanilla.Durability.set(<minecraft:wooden_axe>, 1);
 mods.vanilla.Durability.set(<minecraft:wooden_hoe>, 1);
@@ -66,42 +69,25 @@ mods.vanilla.BlockProperty.set(<minecraft:obsidian>, 6.0, 35.0);
 // Remove the vanilla furnace altogether
 recipes.remove(<minecraft:furnace>);
 mods.jei.JEI.hide(<minecraft:furnace>);
+<minecraft:furnace>.addTooltip(format.red("DISABLED"));
 
-// Replace the furnace with the kiln
+// Replace the furnace with the kiln in recipies
 recipes.remove(<minecraft:furnace_minecart>);
 recipes.addShaped(<minecraft:furnace_minecart>, [
 	[<betterbeginnings:kiln>], 
 	[<minecraft:minecart>]
 ]);
 
-// Remove all furnace cooking recipies
-furnace.remove(<abyssalcraft:abybrick:2>);
-furnace.remove(<abyssalcraft:abydreadbrick:2>);
-furnace.remove(<abyssalcraft:abydreadstone>);
+// Remove ingots from the furnace
 furnace.remove(<abyssalcraft:abyingot>);
-furnace.remove(<abyssalcraft:abyssalsandglass>);
-furnace.remove(<abyssalcraft:abystone>);
 furnace.remove(<abyssalcraft:cbrick>);
 furnace.remove(<abyssalcraft:cingot>);
 furnace.remove(<abyssalcraft:copperingot>);
-furnace.remove(<abyssalcraft:coralium>);
-furnace.remove(<abyssalcraft:cpearl>);
-furnace.remove(<abyssalcraft:cstone>);
-furnace.remove(<abyssalcraft:cstonebrick:2>);
-furnace.remove(<abyssalcraft:darkethaxiumbrick:2>);
-furnace.remove(<abyssalcraft:darkstone>);
-furnace.remove(<abyssalcraft:darkstone_brick:2>);
-furnace.remove(<abyssalcraft:dreadbrick:2>);
 furnace.remove(<abyssalcraft:dreadiumingot>);
-furnace.remove(<abyssalcraft:dreadstone>);
-furnace.remove(<abyssalcraft:ethaxiumbrick:2>);
 furnace.remove(<abyssalcraft:ethaxiumingot>);
-furnace.remove(<abyssalcraft:ethbrick>);
 furnace.remove(<abyssalcraft:friedegg>);
 furnace.remove(<abyssalcraft:nitre>);
 furnace.remove(<abyssalcraft:tiningot>);
-furnace.remove(<backpack:tanned_leather>);
-furnace.remove(<immersiveengineering:material:19>);
 furnace.remove(<immersiveengineering:metal:1>);
 furnace.remove(<immersiveengineering:metal:2>);
 furnace.remove(<immersiveengineering:metal:3>);
@@ -111,24 +97,44 @@ furnace.remove(<immersiveengineering:metal:6>);
 furnace.remove(<immersiveengineering:metal:7>);
 furnace.remove(<immersiveengineering:metal:8>);
 furnace.remove(<immersiveengineering:metal>);
-furnace.remove(<minecraft:chorus_fruit_popped>);
 furnace.remove(<minecraft:gold_ingot>);
 furnace.remove(<minecraft:iron_ingot>);
-furnace.remove(<minecraft:leather>);
-furnace.remove(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
-furnace.remove(<tconstruct:brownstone:4>);
-furnace.remove(<tconstruct:brownstone>);
-furnace.remove(<tconstruct:materials:10>);
-furnace.remove(<tconstruct:materials:11>);
-furnace.remove(<tconstruct:materials:9>);
-furnace.remove(<tconstruct:materials>);
-furnace.remove(<tconstruct:seared:4>);
-furnace.remove(<tconstruct:slime_channel:1>);
-furnace.remove(<tconstruct:slime_channel:2>);
-furnace.remove(<tconstruct:slime_channel:3>);
-furnace.remove(<tconstruct:slime_channel:4>);
-furnace.remove(<tconstruct:slime_channel>);
-furnace.remove(<tconstruct:soil:4>);
+
+//Leaving these in the furnace for now
+//furnace.remove(<abyssalcraft:abybrick:2>);
+//furnace.remove(<abyssalcraft:abydreadbrick:2>);
+//furnace.remove(<abyssalcraft:abydreadstone>);
+//furnace.remove(<abyssalcraft:abyssalsandglass>);
+//furnace.remove(<abyssalcraft:abystone>);
+//furnace.remove(<abyssalcraft:coralium>);
+//furnace.remove(<abyssalcraft:cpearl>);
+//furnace.remove(<abyssalcraft:cstone>);
+//furnace.remove(<abyssalcraft:cstonebrick:2>);
+//furnace.remove(<abyssalcraft:darkethaxiumbrick:2>);
+//furnace.remove(<abyssalcraft:darkstone>);
+//furnace.remove(<abyssalcraft:darkstone_brick:2>);
+//furnace.remove(<abyssalcraft:dreadbrick:2>);
+//furnace.remove(<abyssalcraft:dreadstone>);
+//furnace.remove(<abyssalcraft:ethaxiumbrick:2>);
+//furnace.remove(<abyssalcraft:ethbrick>);
+//furnace.remove(<backpack:tanned_leather>);
+//furnace.remove(<immersiveengineering:material:19>);
+//furnace.remove(<minecraft:chorus_fruit_popped>);
+//furnace.remove(<minecraft:leather>);
+//furnace.remove(<minecraft:potion>.withTag({Potion: "minecraft:water"}));
+//furnace.remove(<tconstruct:brownstone:4>);
+//furnace.remove(<tconstruct:brownstone>);
+//furnace.remove(<tconstruct:materials:10>);
+//furnace.remove(<tconstruct:materials:11>);
+//furnace.remove(<tconstruct:materials:9>);
+//furnace.remove(<tconstruct:materials>);
+//furnace.remove(<tconstruct:seared:4>);
+//furnace.remove(<tconstruct:slime_channel:1>);
+//furnace.remove(<tconstruct:slime_channel:2>);
+//furnace.remove(<tconstruct:slime_channel:3>);
+//furnace.remove(<tconstruct:slime_channel:4>);
+//furnace.remove(<tconstruct:slime_channel>);
+//furnace.remove(<tconstruct:soil:4>);
 
 
 // Lets make a use for diamond tools
