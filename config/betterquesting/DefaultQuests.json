@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "armageddon:textures/gui/armageddon_title.png",
-      "editMode": true,
+      "editMode": false,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -35,7 +35,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You think you can just punch a tree and get some logs? That\u0027s just not gonna happen. You\u0027re gonna need some tools. The first thing to make is a knife. Dif through some gravel and find some flint. Two pieces ar all you need. Then you can make a knife."
+          "desc": "You think you can just punch a tree and get some logs? That\u0027s just not gonna happen. You\u0027re gonna need some tools. The first thing to make is a knife. Dig through some gravel and find some flint. Two pieces are all you need."
         }
       },
       "tasks": [
@@ -80,7 +80,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "Now that you have a knife, you can work on getting an axe. It will just be a flint axe, but it will get the job done."
+          "desc": "Now that you have a knife, you can work on getting an axe. It will just be a flint axe, but it will get the job done.\n\nGet a sapling and use your knife on it to get a stick. Then kill a cow to get some leather, but be careful. Cows, or any animal, aren\u0027t the docile creatures you many be familiar with. They will fight back if you hit them. Cut the leather into strips. Get another flint and make yourself an axe."
         }
       },
       "tasks": [
@@ -282,13 +282,10 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "tconstruct:pattern",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
             {
               "id": "tconstruct:pattern",
               "Count": 1,
@@ -317,8 +314,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -397,84 +394,37 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Material:8": "flint"
-              }
-            },
-            {
-              "id": "tconstruct:tool_rod",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Material:8": "wood"
-              }
+              "Damage": 0
             },
             {
               "id": "tconstruct:binding",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Material:8": "wood"
-              }
+              "Damage": 0
+            },
+            {
+              "id": "tconstruct:tool_rod",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             },
             {
               "id": "tconstruct:pickaxe",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 190,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 2.9
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "tool"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 190,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 2.9
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "wood"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
-              }
+              "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -565,7 +515,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "In addition to hunger, you need to deal with thirst. At first the best thing to do is make a canteen. You can fill glass bottle as well, once you can make those. The water will be dirty, but it\u0027s better than nothing."
+          "desc": "In addition to hunger, you need to deal with thirst. At first the best thing to do is make a canteen. Right click it on a water source to fill it. The water will be dirty, but it\u0027s better than nothing."
         }
       },
       "tasks": [
@@ -575,12 +525,6 @@
           "requiredItems": [
             {
               "id": "toughasnails:canteen",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "toughasnails:water_bottle",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -621,14 +565,23 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You can improve the quality of your drinking water by filtering it with a charcoal filter. That gets you filtered water, whihc is better than dirty water, but you can make it even better by boiling it. Clean water is so refreshing!"
+          "desc": "\nNow that you can make glass, use a glass bottle to get water. It will still be dirty water, but you can improve the quality of your by filtering it with a charcoal filter. That gets you filtered water, which is better than dirty water, but you can make it even better by boiling it. Clean water is so refreshing!"
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "toughasnails:water_bottle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "toughasnails:charcoal_filter",
               "Count": 1,
@@ -651,8 +604,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -2001,7 +1954,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        26
+        26,
+        101
       ],
       "questID": 33
     },
@@ -2429,7 +2383,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Fragments and Essense",
+          "name": "xFragments and Essense",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2485,7 +2439,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dread Skin",
+          "name": "xDread Skin",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2535,7 +2489,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dreadnomicon",
+          "name": "xDreadnomicon",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2585,7 +2539,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Omothol",
+          "name": "xOmothol",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2630,7 +2584,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Gateway Key",
+          "name": "xGateway Key",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2677,7 +2631,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dread-plagued Key",
+          "name": "xDread-plagued Key",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2774,7 +2728,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Altar of Cha\u0027garoth",
+          "name": "xAltar of Cha\u0027garoth",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2828,7 +2782,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dreadium Ingot",
+          "name": "xDreadium Ingot",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2876,7 +2830,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dreaded Shards",
+          "name": "xDreaded Shards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2926,7 +2880,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dread Cloth",
+          "name": "xDread Cloth",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -2973,7 +2927,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Dread Fragment",
+          "name": "xDread Fragment",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3023,7 +2977,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Flesh and Essence",
+          "name": "zFlesh and Essence",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3079,7 +3033,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Skin of Omathol",
+          "name": "zSkin of Omathol",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3130,7 +3084,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Omotholicon",
+          "name": "zOmotholicon",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3181,7 +3135,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Essence of the Gatekeeper",
+          "name": "zEssence of the Gatekeeper",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3234,7 +3188,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Abyssalnomicon",
+          "name": "zAbyssalnomicon",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3286,7 +3240,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Temple of J\u0027zahar",
+          "name": "zTemple of J\u0027zahar",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3331,7 +3285,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Eldritch Scale",
+          "name": "zEldritch Scale",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3381,7 +3335,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Ethaxium Ingots",
+          "name": "zEthaxium Ingots",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3428,7 +3382,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Life Crystal",
+          "name": "zLife Crystal",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3522,7 +3476,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Crystalizer",
+          "name": "xCrystalizer",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3569,7 +3523,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Crystal Shards",
+          "name": "xCrystal Shards",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -3616,7 +3570,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Crystalized Elements",
+          "name": "xCrystalized Elements",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5698,7 +5652,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "There\u0027s a unusual creature that you need to be careful of. It\u0027s called a grue, and it hunts in the darkest of dark places. If you even finds yourself in a place that is completely unlit, the grue will appear to kill you. You can\u0027t fight it with anything except light. Just stay in the light and you will be safe."
+          "desc": "There\u0027s a unusual creature that you need to be careful of. It\u0027s called a grue, and it hunts in the darkest of dark places. If you ever find yourself in a place that is completely unlit, the grue will appear to kill you. You can\u0027t fight it with anything except light. Just stay in the light and you will be safe."
         }
       },
       "tasks": [
@@ -5922,7 +5876,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        5
+        3
       ],
       "questID": 102
     },
@@ -6614,6 +6568,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pattern",
@@ -6637,65 +6594,1651 @@
               "id": "tconstruct:sword_blade",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Material:8": "flint"
-              }
+              "Damage": 0
             },
             {
               "id": "tconstruct:wide_guard",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Material:8": "wood"
-              }
+              "Damage": 0
             },
             {
               "id": "tconstruct:broadsword",
               "Count": 1,
               "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 113
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:tinker_tank_controller",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Super Tank!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "The Tinker\u0027s Tank can hold tremendous amounts of liquid, including molten metals. It\u0027s an efficient way to store all your metal."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:tinker_tank_controller",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        104
+      ],
+      "questID": 114
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:seared_furnace_controller",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Super Cooker!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You can build an extra large furnace so you can cook up large amounts of items all at the same time. Reference §oMaterials and You§o §rto get the full details for construction."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:seared_furnace_controller",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        104
+      ],
+      "questID": 115
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:hardened",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Bunker Blocks",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        152
+      ],
+      "questID": 116
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:hardened",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Immovable Objects",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 117
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:hardened",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Corner Stones",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        117
+      ],
+      "questID": 118
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:hardened",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Nigh-Invulnerable",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:hardened",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        118
+      ],
+      "questID": 119
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:hardened",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Immovable Object",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        119
+      ],
+      "questID": 120
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:wall",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "High Walls",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 121
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:wall",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        117
+      ],
+      "questID": 122
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:wall",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        118
+      ],
+      "questID": 123
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:wall",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        119
+      ],
+      "questID": 124
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:wall",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:wall",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        120
+      ],
+      "questID": 125
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:fence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Making Good Neighbors",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ompd:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ompd:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ompd:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ompd:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "ompd:fence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 126
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:fence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        126
+      ],
+      "questID": 127
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:fence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ],
+      "questID": 128
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:fence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        128
+      ],
+      "questID": 129
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ompd:fence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        129
+      ],
+      "questID": 130
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:turret_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Best Defense",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:turret_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 131
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:turret_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ready! Aim! Fire!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:turret_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        131
+      ],
+      "questID": 132
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:turret_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "2nd Amendment",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:turret_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        132
+      ],
+      "questID": 133
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:turret_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Dey Shootin\u0027!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:turret_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        133
+      ],
+      "questID": 134
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:turret_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "First Strike Capability",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:turret_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        134
+      ],
+      "questID": 135
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:addon_meta",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Addons",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "openmodularturrets:addon_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        132
+      ],
+      "questID": 136
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:potato_cannon_turret",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pea Shooters",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:disposable_item_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:potato_cannon_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        131
+      ],
+      "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:machine_gun_turret",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Popguns",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:machine_gun_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:ammo_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "openmodularturrets:incendiary_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:ammo_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        132
+      ],
+      "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:grenade_turret",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pineapples",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:grenade_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:ammo_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "openmodularturrets:relativistic_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        133
+      ],
+      "questID": 139
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:rocket_turret",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rockets Red Glare",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:rocket_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:ammo_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "openmodularturrets:teleporter_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        134
+      ],
+      "questID": 140
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:laser_turret",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pew! Pew! Pew!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:laser_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:rail_gun_turret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:ammo_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        135
+      ],
+      "questID": 141
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "openmodularturrets:upgrade_meta",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Upgrades",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "openmodularturrets:upgrade_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "openmodularturrets:upgrade_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "openmodularturrets:upgrade_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "openmodularturrets:upgrade_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "openmodularturrets:upgrade_meta",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        132
+      ],
+      "questID": 142
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "golems:golem_paper",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "I made it out of clay!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "golems:golem_paper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "golems:golem_head",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 143
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "tconstruct:punji",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Pointy!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:punji",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:metalDecoration2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        6
+      ],
+      "questID": 144
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:revolver",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Inv:9": {},
+              "upgrades:10": {}
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Feeling Lucky, Punk?",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:revolver",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 0,
               "tag": {
-                "StatsOriginal:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 209,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 3.9
-                },
-                "Special:10": {
-                  "Categories:9": {
-                    "8": "weapon"
-                  }
-                },
-                "Stats:10": {
-                  "AttackSpeedMultiplier:5": 1.0,
-                  "MiningSpeed:5": 5.0,
-                  "FreeModifiers:3": 3,
-                  "Durability:3": 209,
-                  "HarvestLevel:3": 1,
-                  "Attack:5": 3.9
-                },
-                "TinkerData:10": {
-                  "Materials:9": {
-                    "8": "wood"
-                  },
-                  "Modifiers:9": {
-                    "8": "toolleveling"
-                  }
-                },
-                "Traits:9": {
-                  "8": "toolleveling"
-                },
-                "Modifiers:9": {
-                  "10": {
-                    "identifier:8": "toolleveling",
-                    "color:3": 16777215,
-                    "level:3": 1
-                  }
-                }
+                "Inv:9": {},
+                "upgrades:10": {}
               }
             }
           ],
@@ -6707,7 +8250,1139 @@
       "preRequisites": [
         5
       ],
-      "questID": 113
+      "questID": 145
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:bullet",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2,
+            "tag": {
+              "bullet:8": "casull"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Round and Round",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "casull"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "flare"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "potion"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "dragonsbreath"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "silver"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "HE"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "buckshot"
+              }
+            },
+            {
+              "id": "immersiveengineering:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "bullet:8": "armorPiercing"
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        145
+      ],
+      "questID": 146
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:toolupgrade",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Accessorizing!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "immersiveengineering:revolver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        145
+      ],
+      "questID": 147
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:railgun",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "BFG9000",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:railgun",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 148
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:chemthrower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Don\u0027t Cross the Streams",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:chemthrower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "immersiveengineering:toolupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 149
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Exterminate!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metalDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        145
+      ],
+      "questID": 150
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Exfoliate!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metalDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        149
+      ],
+      "questID": 151
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stoneDecoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Not for Shoes",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stoneDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 152
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:tool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "RTFM 2",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        5
+      ],
+      "questID": 153
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:tool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Tools of the Trade",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 154
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Not That Kind of Hemp",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 155
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stoneDecoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Not That Kind of Coke",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stoneDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 156
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stoneDecoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Have a Blast!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stoneDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 157
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:treatedWood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Treat Me Right",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketFilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "creosote",
+                "Amount:3": 1000
+              }
+            },
+            {
+              "id": "immersiveengineering:treatedWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        156
+      ],
+      "questID": 158
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Steel Away",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        157
+      ],
+      "questID": 159
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:wirecoil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Wired",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 30
+            },
+            {
+              "id": "immersiveengineering:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            },
+            {
+              "id": "immersiveengineering:wirecoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        154
+      ],
+      "questID": 160
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "I AM THE POWER!",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metalDecoration0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:metalDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        160
+      ],
+      "questID": 161
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Rollin\u0027 on the River",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:woodenDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        161,
+        158,
+        159
+      ],
+      "questID": 162
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:woodenDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:woodenDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        161,
+        158,
+        159,
+        155
+      ],
+      "questID": 163
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:connector",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Point-to-point",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:connector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        161
+      ],
+      "questID": 164
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "New Quest",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        159,
+        160
+      ],
+      "questID": 165
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metalDevice0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Ohm\u0027s Law",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metalDevice0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        164
+      ],
+      "questID": 166
     }
   ],
   "questLines": [
@@ -6831,7 +9506,7 @@
         }
       ],
       "lineID": 0,
-      "order": 3
+      "order": 4
     },
     {
       "properties": {
@@ -6979,69 +9654,165 @@
       "quests": [
         {
           "size": 24,
-          "x": -66,
-          "y": 174,
-          "id": 112
+          "x": 36,
+          "y": 0,
+          "id": 153
         },
         {
           "size": 24,
           "x": -12,
+          "y": 48,
+          "id": 154
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 48,
+          "id": 155
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 48,
+          "id": 156
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 48,
+          "id": 157
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 96,
+          "id": 158
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 96,
+          "id": 159
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 96,
+          "id": 160
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 144,
+          "id": 161
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 192,
+          "id": 162
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 192,
+          "id": 163
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 192,
+          "id": 164
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 192,
+          "id": 165
+        },
+        {
+          "size": 24,
+          "x": -210,
           "y": 0,
           "id": 102
         },
         {
           "size": 24,
           "x": -12,
-          "y": 54,
+          "y": 240,
+          "id": 166
+        },
+        {
+          "size": 24,
+          "x": -210,
+          "y": 48,
           "id": 103
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 114,
+          "x": -210,
+          "y": 96,
           "id": 104
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 174,
+          "x": -210,
+          "y": 144,
           "id": 105
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 174,
+          "x": -162,
+          "y": 144,
           "id": 106
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 222,
+          "x": -210,
+          "y": 192,
           "id": 107
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 222,
+          "x": -258,
+          "y": 192,
           "id": 108
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 222,
+          "x": -258,
+          "y": 240,
           "id": 109
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 222,
+          "x": -210,
+          "y": 240,
           "id": 110
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 222,
+          "x": -162,
+          "y": 240,
           "id": 111
+        },
+        {
+          "size": 24,
+          "x": -258,
+          "y": 144,
+          "id": 112
+        },
+        {
+          "size": 24,
+          "x": -162,
+          "y": 96,
+          "id": 114
+        },
+        {
+          "size": 24,
+          "x": -258,
+          "y": 96,
+          "id": 115
         }
       ],
       "lineID": 2,
@@ -7257,12 +10028,12 @@
         }
       ],
       "lineID": 3,
-      "order": 2
+      "order": 3
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "The Abyssal Wasteland",
+          "name": "Dark Dimensions",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -7271,9 +10042,21 @@
       "quests": [
         {
           "size": 24,
-          "x": -84,
-          "y": 84,
-          "id": 48
+          "x": 162,
+          "y": 66,
+          "id": 64
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 66,
+          "id": 65
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 66,
+          "id": 66
         },
         {
           "size": 24,
@@ -7322,176 +10105,136 @@
           "x": 36,
           "y": 138,
           "id": 41
-        }
-      ],
-      "lineID": 4,
-      "order": 4
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Dreadlands",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "No Description"
-        }
-      },
-      "quests": [
-        {
-          "size": 24,
-          "x": 72,
-          "y": 180,
-          "id": 64
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 180,
-          "id": 65
-        },
-        {
-          "size": 24,
-          "x": 168,
-          "y": 180,
-          "id": 66
-        },
-        {
-          "size": 24,
-          "x": -12,
-          "y": 0,
+          "x": 66,
+          "y": 270,
           "id": 42
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 42,
+          "x": 114,
+          "y": 270,
           "id": 43
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 84,
+          "x": 162,
+          "y": 270,
           "id": 44
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 264,
+          "x": 270,
+          "y": 270,
           "id": 45
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 264,
+          "x": 270,
+          "y": 198,
           "id": 46
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 264,
+          "x": 270,
+          "y": 132,
           "id": 47
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 216,
+          "x": 66,
+          "y": 84,
+          "id": 48
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 132,
           "id": 49
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 180,
+          "x": 162,
+          "y": 132,
           "id": 50
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 132,
+          "x": 162,
+          "y": 198,
           "id": 51
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 180,
+          "x": 216,
+          "y": 198,
           "id": 52
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 132,
+          "x": 216,
+          "y": 270,
           "id": 53
-        }
-      ],
-      "lineID": 5,
-      "order": 5
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "name": "Omathol",
-          "bg_image": "",
-          "bg_size": 256,
-          "desc": "No Description"
-        }
-      },
-      "quests": [
+        },
         {
           "size": 24,
-          "x": -12,
-          "y": 0,
+          "x": 270,
+          "y": 336,
           "id": 54
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 42,
+          "x": 330,
+          "y": 336,
           "id": 55
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 84,
+          "x": 378,
+          "y": 336,
           "id": 56
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 168,
+          "x": 336,
+          "y": 198,
           "id": 57
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 210,
+          "x": 402,
+          "y": 198,
           "id": 58
         },
         {
           "size": 24,
-          "x": -12,
-          "y": 126,
+          "x": 336,
+          "y": 270,
           "id": 59
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 210,
+          "x": 402,
+          "y": 270,
           "id": 60
         },
         {
           "size": 24,
-          "x": -60,
-          "y": 210,
+          "x": 402,
+          "y": 66,
           "id": 61
         },
         {
           "size": 24,
-          "x": -108,
-          "y": 210,
+          "x": 336,
+          "y": 66,
           "id": 62
         }
       ],
-      "lineID": 6,
-      "order": 6
+      "lineID": 4,
+      "order": 5
     },
     {
       "properties": {
@@ -7502,9 +10245,166 @@
           "desc": "No Description"
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 126,
+          "y": 0,
+          "id": 131
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 48,
+          "id": 132
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 96,
+          "id": 133
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 144,
+          "id": 134
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 192,
+          "id": 135
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 24,
+          "id": 136
+        },
+        {
+          "size": 24,
+          "x": 180,
+          "y": 0,
+          "id": 137
+        },
+        {
+          "size": 24,
+          "x": 180,
+          "y": 48,
+          "id": 138
+        },
+        {
+          "size": 24,
+          "x": 180,
+          "y": 96,
+          "id": 139
+        },
+        {
+          "size": 24,
+          "x": 180,
+          "y": 144,
+          "id": 140
+        },
+        {
+          "size": 24,
+          "x": 180,
+          "y": 192,
+          "id": 141
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 72,
+          "id": 142
+        },
+        {
+          "size": 24,
+          "x": -66,
+          "y": 96,
+          "id": 143
+        },
+        {
+          "size": 24,
+          "x": -174,
+          "y": 96,
+          "id": 144
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 192,
+          "id": 145
+        },
+        {
+          "size": 24,
+          "x": -66,
+          "y": 192,
+          "id": 146
+        },
+        {
+          "size": 24,
+          "x": -174,
+          "y": 192,
+          "id": 147
+        },
+        {
+          "size": 24,
+          "x": -174,
+          "y": 144,
+          "id": 148
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 144,
+          "id": 149
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 246,
+          "id": 150
+        },
+        {
+          "size": 24,
+          "x": -66,
+          "y": 144,
+          "id": 151
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 0,
+          "id": 152
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 48,
+          "id": 116
+        },
+        {
+          "size": 24,
+          "x": -66,
+          "y": 48,
+          "id": 117
+        },
+        {
+          "size": 24,
+          "x": -120,
+          "y": 96,
+          "id": 121
+        },
+        {
+          "size": 24,
+          "x": -174,
+          "y": 48,
+          "id": 126
+        }
+      ],
       "lineID": 7,
-      "order": 7
+      "order": 2
     }
   ],
   "format": "1.0.0"
