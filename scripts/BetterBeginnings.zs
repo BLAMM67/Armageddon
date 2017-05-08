@@ -8,9 +8,6 @@ print("*** Tweaking BetterBeginnings ***");
 
 // Add some recipies from the furnace to the Kiln
 Kiln.addRecipe(<tconstruct:materials>, <tconstruct:soil>);
-val potion = <minecraft:potion>;
-val waterBottle = potion.withTag({Potion:"minecraft:water"});
-Kiln.addRecipe(waterBottle, <toughasnails:water_bottle:1>);
 
 // Add fried egg to the oven
 Oven.addShapelessRecipe(<abyssalcraft:friedegg>, [<minecraft:egg>]);
