@@ -10,3 +10,6 @@ minetweaker.log
 options.txt
 usercache.json
 usernamecache.json
+config/InvTweaks.cfg
+config/JEI/worldSettings.cfg
+config/MouseTweaks.cfg
