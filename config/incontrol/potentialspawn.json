@@ -38,7 +38,7 @@
   {
     "dimension": 0,
     "maxlight": 16,
-    "maxcount": "30,PigZombie",
+    "maxcount": "10,PigZombie",
     "mobs": [
       {
         "mob": "PigZombie",
