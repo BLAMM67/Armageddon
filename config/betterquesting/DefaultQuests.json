@@ -387,7 +387,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "The next tool you need is a pick. Use the patterns in the parts table, and make sure you have enough materials. Some parts need more than one item. You can use may different materials, but let\u0027s stick to the simple ones for now. A flint pick with a wooden handle and binder. You can upgrade it with parts made of different materials later."
+          "desc": "The next tool you need is a pick. Use the patterns in the parts table, and make sure you have enough materials. Some parts need more than one item. You can use many different materials, but let\u0027s stick to the simple ones for now. A flint pick with a wooden handle and binder. You can upgrade it with parts made of different materials later."
         }
       },
       "tasks": [
@@ -549,23 +549,20 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:potion",
+            "id": "toughasnails:charcoal_filter",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "Potion:8": "minecraft:water"
-            }
+            "Damage": 0
           },
           "snd_update": "minecraft:entity.player.levelup",
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Clean and Clear",
+          "name": "Charcoal Filters",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "\nNow that you can make glass, use a glass bottle to get water. It will still be dirty water, but you can improve the quality of your by filtering it with a charcoal filter. That gets you filtered water, which is better than dirty water, but you can make it even better by boiling it. Clean water is so refreshing!"
+          "desc": "Use a glass bottle to get water. It will still be dirty water, but you can improve the quality by filtering it with a charcoal filter. That gets you filtered water, which is better than dirty water. You can also filter the water in a canteen."
         }
       },
       "tasks": [
@@ -593,15 +590,6 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 1
-            },
-            {
-              "id": "minecraft:potion",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Potion:8": "minecraft:water"
-              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -610,8 +598,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        7,
-        6
+        7
       ],
       "questID": 8
     },
@@ -637,7 +624,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "You can mix the clean water with a number of different fruits to make juice. The juice is even more refreshing than the water. Try them all!"
+          "desc": "You can mix clean water with a number of different fruits to make juice. The juice is even more refreshing than the water. Try them all!"
         }
       },
       "tasks": [
@@ -712,7 +699,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        8
+        167
       ],
       "questID": 9
     },
@@ -5720,9 +5707,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        6
-      ],
+      "preRequisites": [],
       "questID": 100
     },
     {
@@ -9383,6 +9368,68 @@
         164
       ],
       "questID": 166
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:potion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Potion:8": "minecraft:water"
+            }
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Clean and Clear",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Of course, clean water is even more refreshing than filtered water, but it\u0027s a bit more difficult to get. The lazy way is to make a rain collector and just wait. After a few rainstorms, the collector will be full, and you can fill bottles and canteens from it.\n\nBut what you really want to do is boil your filtered water to make clean water. You\u0027ll need a big furnace. The kiln, oven, and smelter just aren\u0027t right for the job. Once you\u0027ve built a Tinkers furnace, you can heat bottles of filtered water in that to get as much clean, fresh water as you want."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "toughasnails:rain_collector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Potion:8": "minecraft:water"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        8
+      ],
+      "questID": 167
     }
   ],
   "questLines": [
@@ -9551,7 +9598,7 @@
         {
           "size": 24,
           "x": -108,
-          "y": 216,
+          "y": 0,
           "id": 100
         },
         {
@@ -9562,8 +9609,8 @@
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 54,
+          "x": -54,
+          "y": 0,
           "id": 101
         },
         {
@@ -9574,20 +9621,26 @@
         },
         {
           "size": 24,
-          "x": -108,
+          "x": 54,
           "y": 0,
           "id": 7
         },
         {
           "size": 24,
-          "x": -108,
-          "y": 54,
+          "x": 162,
+          "y": 0,
+          "id": 167
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 0,
           "id": 8
         },
         {
           "size": 24,
-          "x": -162,
-          "y": 54,
+          "x": 216,
+          "y": 0,
           "id": 9
         },
         {
