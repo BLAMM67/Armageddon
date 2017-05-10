@@ -1,1 +1,4 @@
 # Armageddon
+The world has gone mad. Evil has arisen. Creatures of darkness that understand only destruction roam the land leaving ruin behind them. You have awoken into this nightmare as a lone survivor of disaster. If this is going to end, it is up to you. Find the merciless source of this chaos and finish it. Bring the battle to him. The last battle to save the world. Armageddon.
+
+Armageddon is a hardcore pack pitting players against the worst that mod authors have to offer. It is a low-magic (AbyssalCraft), low-tech (Immersive Engineering) pack that has been significantly tweaked to create an integrated experience. Milestones are gated behind one another creating a storyline from awakening to the final task that ends the nightmare. A questline guides the players to this finale while making them aware of recipe changes. Multi-player is encouraged.
