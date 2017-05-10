@@ -1,3 +1,5 @@
+import mods.immersiveengineering.Squeezer;
+
 print("*** Tweaking Immersive Engineering ***");
 
 
@@ -12,3 +14,5 @@ recipes.remove(<immersiveengineering:material:1>);
 recipes.remove(<immersiveengineering:material:2>);
 recipes.remove(<immersiveengineering:material:3>);
 
+// Add beet seeds to squeezer
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <minecraft:beetroot_seeds>, 240);
