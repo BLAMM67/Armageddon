@@ -2,6 +2,9 @@ import mods.betterbeginnings.AdvancedCrafting;
 
 print("*** Tweaking Vanilla ***");
 
+// Villages are disabled so drop beet seeds from grass
+vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(5));
+
 // Someone is adding a 4 gravel recipe for flint. Drop it.
 recipes.removeShaped(<minecraft:flint>);
 
