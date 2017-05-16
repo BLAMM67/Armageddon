@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "armageddon:textures/gui/armageddon_title.png",
-      "editMode": false,
+      "editMode": true,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -5894,6 +5894,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:soil",
@@ -5908,8 +5911,8 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6033,6 +6036,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:clay_cast",
@@ -6044,8 +6050,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6086,6 +6092,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:cast",
@@ -6097,8 +6106,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6177,6 +6186,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
@@ -6188,8 +6200,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6230,6 +6242,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
@@ -6241,8 +6256,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6283,6 +6298,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
@@ -6294,8 +6312,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6336,6 +6354,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
@@ -6347,8 +6368,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6389,6 +6410,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "tconstruct:pick_head",
@@ -6400,8 +6424,8 @@
               }
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -6473,10 +6497,40 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": ""
+          "desc": "Bet you\u0027re tired of fighting off zombies and skeletons with your fists. Well, stop. It\u0027s time to get a real weapon. Start with a basic broadsword. Then review §oMaterials and You§r to see what your options are. You\u0027re sure to find something that fits your fighting style."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:sword_blade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tconstruct:wide_guard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tconstruct:broadsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         105
@@ -8699,7 +8753,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You may not be an engineer, but you\u0027re gonna have to learn. Luckily, I know how you can get an §oEngineer\u0027s Manual§r. I\u0027ll guide you through the basics, but you are gonna have to get used to reading that book. It\u0027s got a lot more in it than I can teach you."
         }
       },
       "tasks": [
@@ -8746,7 +8800,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "When working with machines you need the right tools for the right job. The hammer and wire cutters are the most basic, but also the most important."
         }
       },
       "tasks": [
@@ -8799,7 +8853,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "I\u0027m sure you know that hemp is an extremely useful material. What you may not know is that you are going to need a whole lot of it. You\u0027ve probably already gathered more than a few hemp seeds. If you plant them in garden, you can reap hemp fiber, which will be very useful for making rope and cloth."
         }
       },
       "tasks": [
@@ -8855,7 +8909,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Coal coke is a special kind of fuel you will need to starting making steel. You make coal coke by putting coal or logs into a coke oven, so you need to make the coke oven. Read the §oEngineer\u0027s Manual§r for more details, but I can tell you, you will need 27 coke bricks placed in a cube. Then you whack the front with the hammer."
         }
       },
       "tasks": [
@@ -8865,7 +8919,7 @@
           "requiredItems": [
             {
               "id": "immersiveengineering:stoneDecoration",
-              "Count": 1,
+              "Count": 27,
               "OreDict": "",
               "Damage": 0
             }
@@ -8902,7 +8956,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You can start making steel with a crude blast furnace. Again, you should refer to the §oEngineer\u0027s Manual§r for more information, but just as with the coke oven you will need 27 blocks placed in a cube to make the furnace. Prepare your floor plans appropriately."
         }
       },
       "tasks": [
@@ -8912,7 +8966,7 @@
           "requiredItems": [
             {
               "id": "immersiveengineering:stoneDecoration",
-              "Count": 1,
+              "Count": 27,
               "OreDict": "",
               "Damage": 1
             }
@@ -8949,13 +9003,16 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "In addition to coal coke, the coke oven produce creosote oil. You use the creosote oil to treat wood so that it lasts longer. You will probably end up with more oil than you can use at first, so find a way to store it."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "forge:bucketFilled",
@@ -8971,11 +9028,11 @@
               "id": "immersiveengineering:treatedWood",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -9006,13 +9063,16 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Steel is stronger and more durable than iron. You are gonna find that there are materials that can hold an edge better and work well as armor, but those materials simply aren\u0027t suited for structural work. Only steel works for machinery, so start making it as fast as you can because there are a lot of machines you will need later."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "immersiveengineering:metal",
@@ -9021,8 +9081,8 @@
               "Damage": 8
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -9053,7 +9113,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "If you haven\u0027t already found copper, you better start looking because you will need a lot of it. It\u0027s one of the best conductors of electricty, so you are going to need it to start your power base. Get it? \"Power\" base? Electricty? Nevermind."
         }
       },
       "tasks": [
@@ -9112,7 +9172,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The kinetic dynamo is the backbone of your power grid. You can hook it up to a number of different machines to turn kinetic energy into RF. Refer to the  §oEngineer\u0027s Manual§r for information on generating power."
         }
       },
       "tasks": [
@@ -9165,7 +9225,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The water wheel is one way to generate power. It\u0027s big so make sure you have enough room before you place it. A kinetic dynamo needs to be placed next to it at its center to generate power. A single dynamo can handle three water wheels side-by-side."
         }
       },
       "tasks": [
@@ -9214,7 +9274,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The windmill is another method of cranking the kinetic dynamo. You can make a basic windmill, but honestly it\u0027s much better to just skip to the improved version."
         }
       },
       "tasks": [
@@ -9264,7 +9324,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The connectors let you hang wires so you can transfer the power you generate to the machines that need them. Once you\u0027ve placed your connectors, right-click with a wire on one and then on a second ome to connect them with a wire."
         }
       },
       "tasks": [
@@ -9307,14 +9367,29 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "New Quest",
+          "name": "A Story of Ice and Fire",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The thermoelectric generator creates power from the temperature differences between two different extremes. You will need to place lava and ice on opposite sides of the generator. If you do this on all four sides, the power output increases. You can use ice, but it will probably be difficult to keep it from melting, so packed ice is probably your best bet."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metalDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         159,
@@ -9340,11 +9415,11 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Ohm\u0027s Law",
+          "name": "Max Capacity",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Once you start creating and using power, it\u0027s a good idea to have a few capacitors as buffers. It\u0027s a tough balancing act to get the supply and the demand equal, so capacitors let you store up extra power for the times when you need a little extra oomph."
         }
       },
       "tasks": [
