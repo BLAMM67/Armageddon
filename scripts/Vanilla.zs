@@ -66,6 +66,13 @@ recipes.addShaped(<minecraft:potion>.withTag({Potion: "minecraft:luck"}), [
 	[<ore:gemLapis>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:gemLapis>] 
 ]);
 
+// Add a recipe for packed ice because it is needed for the thermoelectric generator
+recipes.addShaped(<minecraft:packed_ice>, [
+	[<toughasnails:ice_cube>, <toughasnails:freeze_rod>, <toughasnails:ice_cube>],
+	[<toughasnails:freeze_rod>, <toughasnails:ice_cube>, <toughasnails:freeze_rod>],
+	[<toughasnails:ice_cube>, <toughasnails:freeze_rod>, <toughasnails:ice_cube>] 
+]);
+
 // Nerf obsidian so the hardened blocks are the building material of choice
 mods.vanilla.BlockProperty.set(<minecraft:obsidian>, 6.0, 35.0);
 
