@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "armageddon:textures/gui/armageddon_title.png",
-      "editMode": true,
+      "editMode": false,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -4890,7 +4890,7 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "extraalchemy:breakablePotion",
+            "id": "extraalchemy:breakable_potion",
             "Count": 3,
             "OreDict": "",
             "Damage": 0,
@@ -4921,7 +4921,7 @@
               "Damage": 0
             },
             {
-              "id": "extraalchemy:breakablePotion",
+              "id": "extraalchemy:breakable_potion",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
