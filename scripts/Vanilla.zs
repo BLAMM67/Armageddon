@@ -73,6 +73,28 @@ recipes.addShaped(<minecraft:packed_ice>, [
 	[<toughasnails:ice_cube>, <toughasnails:freeze_rod>, <toughasnails:ice_cube>] 
 ]);
 
+// Add a recipe for saddles and horse armor
+recipes.addShaped(<minecraft:saddle>, [
+	[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+	[<minecraft:string>, <minecraft:carpet>, <minecraft:string>],
+	[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>] 
+]);
+recipes.addShaped(<minecraft:iron_horse_armor>, [
+	[null, null, <minecraft:iron_helmet>],
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+	[<minecraft:iron_leggings>, null, <minecraft:iron_leggings>] 
+]);
+recipes.addShaped(<minecraft:golden_horse_armor>, [
+	[null, null, <minecraft:golden_helmet>],
+	[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
+	[<minecraft:golden_leggings>, null, <minecraft:golden_leggings>] 
+]);
+recipes.addShaped(<minecraft:diamond_horse_armor>, [
+	[null, null, <minecraft:diamond_helmet>],
+	[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+	[<minecraft:diamond_leggings>, null, <minecraft:diamond_leggings>] 
+]);
+
 // Nerf obsidian so the hardened blocks are the building material of choice
 mods.vanilla.BlockProperty.set(<minecraft:obsidian>, 6.0, 35.0);
 
