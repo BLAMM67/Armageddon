@@ -111,7 +111,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<abyssalcraft:engraving_blank>, <
 mods.immersiveengineering.MetalPress.addRecipe(<abyssalcraft:engraving_blank>, <ore:ingotSteel>, clayCastSign, 500, 1);
 
 // Replace the recipe for plates
-recipes.remove(<abyssalcraft:ironp>);
+recipes.removeShaped(<abyssalcraft:ironp>, [[<ore:ingotIron>],[<ore:ingotIron>]]);
 mods.immersiveengineering.MetalPress.addRecipe(<abyssalcraft:ironp>, <ore:ingotIron>, castPan, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<abyssalcraft:ironp>, <ore:ingotIron>, clayCastPan, 500, 1);
 
@@ -155,3 +155,12 @@ recipes.remove(<abyssalcraft:dreadkatana>);
 recipes.remove(<abyssalcraft:dreadblade>);
 recipes.remove(<abyssalcraft:corbow>);
 
+//Remove the upgrade kits
+recipes.remove(<abyssalcraft:cobbleu>);
+recipes.remove(<abyssalcraft:ironu>);
+recipes.remove(<abyssalcraft:goldu>);
+recipes.remove(<abyssalcraft:diamondu>);
+recipes.remove(<abyssalcraft:abyssalniteu>);
+recipes.remove(<abyssalcraft:coraliumu>);
+recipes.remove(<abyssalcraft:dreadiumu>);
+recipes.remove(<abyssalcraft:ethaxiumu>);
