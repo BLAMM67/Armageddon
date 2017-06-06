@@ -12,6 +12,7 @@ val obsidian = 3;
 val cobalt   = 4;
 val corelium = 5;
 val dreadium = 6;
+
 // Adjust material harvest levels to build a gated path to manyullyn
 <material:obsidian>.harvestLevelHead = obsidian;
 <material:abyssalnite>.harvestLevelHead = diamond;

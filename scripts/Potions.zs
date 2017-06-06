@@ -1,5 +1,6 @@
 print("*** Tweaking Potions ***");
 
+// The luck potion has no recipe and MT can't work with the brewing stand, so we'll just add a standard crafting recipe for it.
 recipes.addShaped(<minecraft:potion>.withTag({Potion: "minecraft:luck"}), [
 	[<ore:gemLapis>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:gemLapis>] 
 ]);

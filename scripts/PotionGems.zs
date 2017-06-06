@@ -2,6 +2,8 @@ print("*** Tweaking Potion Gems ***");
 
 val potentiaGem = <ytgems:gem_potentia>;
 
+// Creating AbyssalCraft rituals for porion gems to increase the "magicalness" of both mods
+
 recipes.remove(potentiaGem);
 recipes.addShaped(potentiaGem, [
 	[<ore:blockQuartz>, <ore:crystalHydrogen>, <ore:blockQuartz>], 
