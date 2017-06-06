@@ -36,35 +36,26 @@ mods.vanilla.Durability.set(<minecraft:diamond_shovel>, 1);
 mods.vanilla.Durability.set(<minecraft:diamond_sword>, 1);
 
 // Remove the advanced crafting recipies for the vanilla tools
-// WHY DOESN"T THIS WORK??
-/*
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:stone_axe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:stone_hoe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:stone_pickaxe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:stone_shovel>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:stone_sword>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:iron_axe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:iron_hoe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:iron_pickaxe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:iron_shovel>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:iron_sword>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:golden_axe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:golden_hoe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:golden_pickaxe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:golden_shovel>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:golden_sword>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:diamond_axe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:diamond_hoe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:diamond_pickaxe>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:diamond_shovel>);
-mods.betterbeginnings.AdvancedCrafting.removeOutput(<minecraft:diamond_sword>);
-*/
-
-
-// The luck potion has no recipe and MT can't work with the brewing stand, so we'll just add a standard crafting recipe for it.
-recipes.addShaped(<minecraft:potion>.withTag({Potion: "minecraft:luck"}), [
-	[<ore:gemLapis>, <minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:gemLapis>] 
-]);
+AdvancedCrafting.removeOutput(<minecraft:stone_axe>);
+AdvancedCrafting.removeOutput(<minecraft:stone_hoe>);
+AdvancedCrafting.removeOutput(<minecraft:stone_pickaxe>);
+AdvancedCrafting.removeOutput(<minecraft:stone_shovel>);
+AdvancedCrafting.removeOutput(<minecraft:stone_sword>);
+AdvancedCrafting.removeOutput(<minecraft:iron_axe>);
+AdvancedCrafting.removeOutput(<minecraft:iron_hoe>);
+AdvancedCrafting.removeOutput(<minecraft:iron_pickaxe>);
+AdvancedCrafting.removeOutput(<minecraft:iron_shovel>);
+AdvancedCrafting.removeOutput(<minecraft:iron_sword>);
+AdvancedCrafting.removeOutput(<minecraft:golden_axe>);
+AdvancedCrafting.removeOutput(<minecraft:golden_hoe>);
+AdvancedCrafting.removeOutput(<minecraft:golden_pickaxe>);
+AdvancedCrafting.removeOutput(<minecraft:golden_shovel>);
+AdvancedCrafting.removeOutput(<minecraft:golden_sword>);
+AdvancedCrafting.removeOutput(<minecraft:diamond_axe>);
+AdvancedCrafting.removeOutput(<minecraft:diamond_hoe>);
+AdvancedCrafting.removeOutput(<minecraft:diamond_pickaxe>);
+AdvancedCrafting.removeOutput(<minecraft:diamond_shovel>);
+AdvancedCrafting.removeOutput(<minecraft:diamond_sword>);
 
 // Add a recipe for packed ice because it is needed for the thermoelectric generator
 recipes.addShaped(<minecraft:packed_ice>, [
@@ -100,7 +91,7 @@ mods.vanilla.BlockProperty.set(<minecraft:obsidian>, 6.0, 35.0);
 
 // Remove the vanilla furnace altogether
 recipes.remove(<minecraft:furnace>);
-mods.jei.JEI.hide(<minecraft:furnace>);
+mods.jei.JEI.hide(<minecraft:furnace>); // THIS DOESN'T WORK!
 <minecraft:furnace>.addTooltip(format.red("DISABLED"));
 
 // Replace the furnace with the kiln in recipies
@@ -132,7 +123,8 @@ furnace.remove(<immersiveengineering:metal>);
 furnace.remove(<minecraft:gold_ingot>);
 furnace.remove(<minecraft:iron_ingot>);
 
-//Leaving these in the furnace for now
+// Leaving these in the furnace for now since the Tinkers furnace 
+// does the same job as the vanilla furnace
 //furnace.remove(<abyssalcraft:abybrick:2>);
 //furnace.remove(<abyssalcraft:abydreadbrick:2>);
 //furnace.remove(<abyssalcraft:abydreadstone>);
@@ -169,7 +161,7 @@ furnace.remove(<minecraft:iron_ingot>);
 //furnace.remove(<tconstruct:soil:4>);
 
 
-// Lets make a use for diamond tools
+// Lets make a use for diamond tools since a few mobs drop them
 // Crusher: OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_shovel>, 8000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_pickaxe>, 8000);
@@ -181,3 +173,101 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_chestplate>, 8000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_leggings>, 8000);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_boots>, 8000);
+
+// The advanced crafting recipe for the oak chest uses orePlank
+// Change it to use oak planks so the quark chests can have their own advanced crafting recipies
+AdvancedCrafting.removeOutput(<minecraft:chest>);
+recipes.remove(<quark:custom_chest>);
+recipes.remove(<quark:custom_chest:1>);
+recipes.remove(<quark:custom_chest:2>);
+recipes.remove(<quark:custom_chest:3>);
+recipes.remove(<quark:custom_chest:4>);
+AdvancedCrafting.addRecipe(<minecraft:chest>,[
+	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+	[<minecraft:planks>, null, <minecraft:planks>],
+	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+AdvancedCrafting.addRecipe(<quark:custom_chest>,[
+	[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
+	[<minecraft:planks:1>, null, <minecraft:planks:1>],
+	[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:1>,[
+	[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
+	[<minecraft:planks:2>, null, <minecraft:planks:2>],
+	[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:2>,[
+	[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
+	[<minecraft:planks:3>, null, <minecraft:planks:3>],
+	[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:3>,[
+	[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
+	[<minecraft:planks:4>, null, <minecraft:planks:4>],
+	[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:4>,[
+	[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
+	[<minecraft:planks:5>, null, <minecraft:planks:5>],
+	[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
+	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+
+// Add convience recipies for chests using logs
+AdvancedCrafting.addRecipe(<minecraft:chest> * 4,[
+	[<minecraft:log>, <minecraft:log>, <minecraft:log>],
+	[<minecraft:log>, null, <minecraft:log>],
+	[<minecraft:log>, <minecraft:log>, <minecraft:log>]]
+	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+AdvancedCrafting.addRecipe(<quark:custom_chest> * 4,[
+	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>],
+	[<minecraft:log:1>, null, <minecraft:log:1>],
+	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]]
+	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:1> * 4,[
+	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>],
+	[<minecraft:log:2>, null, <minecraft:log:2>],
+	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]]
+	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:2> * 4,[
+	[<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>],
+	[<minecraft:log:3>, null, <minecraft:log:3>],
+	[<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>]]
+	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:3> * 4,[
+	[<minecraft:log2>, <minecraft:log2>, <minecraft:log2>],
+	[<minecraft:log2>, null, <minecraft:log2>],
+	[<minecraft:log2>, <minecraft:log2>, <minecraft:log2>]],
+	[<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+AdvancedCrafting.addRecipe(<quark:custom_chest:4> * 4,[
+	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>],
+	[<minecraft:log2:1>, null, <minecraft:log2:1>],
+	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]],
+	[<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+
+// Change the recipies for quarks trapped chests for advanced recipies
+recipes.remove(<quark:custom_chest_trap>);
+recipes.remove(<quark:custom_chest_trap:1>);
+recipes.remove(<quark:custom_chest_trap:2>);
+recipes.remove(<quark:custom_chest_trap:3>);
+recipes.remove(<quark:custom_chest_trap:4>);
+AdvancedCrafting.addRecipe(<quark:custom_chest_trap>,[
+	[<quark:custom_chest>],
+	[<minecraft:tripwire_hook>]],
+	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
+AdvancedCrafting.addRecipe(<quark:custom_chest_trap:1>,[
+	[<quark:custom_chest:1>],
+	[<minecraft:tripwire_hook>]],
+	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
+AdvancedCrafting.addRecipe(<quark:custom_chest_trap:2>,[
+	[<quark:custom_chest:2>],
+	[<minecraft:tripwire_hook>]],
+	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
+AdvancedCrafting.addRecipe(<quark:custom_chest_trap:3>,[
+	[<quark:custom_chest:3>],
+	[<minecraft:tripwire_hook>]],
+	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
+AdvancedCrafting.addRecipe(<quark:custom_chest_trap:4>,[
+	[<quark:custom_chest:4>],
+	[<minecraft:tripwire_hook>]],
+	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
