@@ -1,5 +1,6 @@
 import mods.betterbeginnings.AdvancedCrafting;
 import mods.immersiveengineering.Squeezer;
+import mods.tconstruct.Casting;
 
 print("*** Tweaking Immersive Engineering ***");
 
@@ -33,12 +34,29 @@ recipes.addShaped(<immersiveengineering:material:3>, [
 	[<ore:ingotAluminum>]
 ]);
 
-// 
-recipes.removeShapeless(<immersiveengineering:metal:30>);
+// Add an advanced recipe for Faraday armor
+recipes.remove(<immersiveengineering:faradaySuit_head>);
+recipes.remove(<immersiveengineering:faradaySuit_chest>);
+recipes.remove(<immersiveengineering:faradaySuit_legs>);
+recipes.remove(<immersiveengineering:faradaySuit_feet>);
+AdvancedCrafting.addRecipe(<immersiveengineering:faradaySuit_head>,[
+	[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>],
+	[<ore:plateAluminum>, null, <ore:plateAluminum>]],
+	[<ore:nuggetAluminum> * 2, <ore:wireCopper> * 3, <minecraft:wool:*> * 2]);
 
+AdvancedCrafting.addRecipe(<immersiveengineering:faradaySuit_chest>,[
+	[<ore:plateAluminum>, null, <ore:plateAluminum>],
+	[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>],
+	[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]],
+	[<ore:nuggetAluminum> * 6, <ore:wireCopper> * 2, <minecraft:wool:*> * 4]);
 
-var hammer = <immersiveengineering:tool>;
-AdvancedCrafting.addRecipe(<immersiveengineering:metal:30>,[
-	[<immersiveengineering:metal>, <immersiveengineering:metal>],
-	[<immersiveengineering:metal>, <immersiveengineering:metal>]],
-	[hammer.reuse()]);
+AdvancedCrafting.addRecipe(<immersiveengineering:faradaySuit_legs>,[
+	[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>],
+	[<ore:plateAluminum>, null, <ore:plateAluminum>],
+	[<ore:plateAluminum>, null, <ore:plateAluminum>]],
+	[<ore:nuggetAluminum> * 4, <ore:wireCopper> * 4, <minecraft:wool:*> * 1]);
+
+AdvancedCrafting.addRecipe(<immersiveengineering:faradaySuit_feet>,[
+	[<ore:plateAluminum>, null, <ore:plateAluminum>],
+	[<ore:plateAluminum>, null, <ore:plateAluminum>]],
+	[<ore:nuggetAluminum> * 3, <ore:wireCopper> * 2, <minecraft:wool:*> * 3]);

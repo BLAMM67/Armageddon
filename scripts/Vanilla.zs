@@ -186,66 +186,66 @@ AdvancedCrafting.addRecipe(<minecraft:chest>,[
 	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
 	[<minecraft:planks>, null, <minecraft:planks>],
 	[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 AdvancedCrafting.addRecipe(<quark:custom_chest>,[
 	[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
 	[<minecraft:planks:1>, null, <minecraft:planks:1>],
 	[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:1>,[
 	[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
 	[<minecraft:planks:2>, null, <minecraft:planks:2>],
 	[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:2>,[
 	[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
 	[<minecraft:planks:3>, null, <minecraft:planks:3>],
 	[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:3>,[
 	[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
 	[<minecraft:planks:4>, null, <minecraft:planks:4>],
 	[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:4>,[
 	[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
 	[<minecraft:planks:5>, null, <minecraft:planks:5>],
 	[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
-	, [<betterbeginnings:iron_nugget> * 3, <betterbeginnings:leather_strip>]);
+	, [<ore:nuggetIron> * 3, <betterbeginnings:leather_strip>]);
 
 // Add convience recipies for chests using logs
 AdvancedCrafting.addRecipe(<minecraft:chest> * 4,[
 	[<minecraft:log>, <minecraft:log>, <minecraft:log>],
 	[<minecraft:log>, null, <minecraft:log>],
 	[<minecraft:log>, <minecraft:log>, <minecraft:log>]]
-	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	, [<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 AdvancedCrafting.addRecipe(<quark:custom_chest> * 4,[
 	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>],
 	[<minecraft:log:1>, null, <minecraft:log:1>],
 	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]]
-	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	, [<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:1> * 4,[
 	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>],
 	[<minecraft:log:2>, null, <minecraft:log:2>],
 	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]]
-	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	, [<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:2> * 4,[
 	[<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>],
 	[<minecraft:log:3>, null, <minecraft:log:3>],
 	[<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>]]
-	, [<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	, [<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:3> * 4,[
 	[<minecraft:log2>, <minecraft:log2>, <minecraft:log2>],
 	[<minecraft:log2>, null, <minecraft:log2>],
 	[<minecraft:log2>, <minecraft:log2>, <minecraft:log2>]],
-	[<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	[<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 AdvancedCrafting.addRecipe(<quark:custom_chest:4> * 4,[
 	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>],
 	[<minecraft:log2:1>, null, <minecraft:log2:1>],
 	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]],
-	[<betterbeginnings:iron_nugget> * 12, <betterbeginnings:leather_strip> * 4]);
+	[<ore:nuggetIron> * 12, <betterbeginnings:leather_strip> * 4]);
 
-// Change the recipies for quarks trapped chests for advanced recipies
+// Change the recipes for quarks trapped chests for advanced recipies
 recipes.remove(<quark:custom_chest_trap>);
 recipes.remove(<quark:custom_chest_trap:1>);
 recipes.remove(<quark:custom_chest_trap:2>);
@@ -271,3 +271,30 @@ AdvancedCrafting.addRecipe(<quark:custom_chest_trap:4>,[
 	[<quark:custom_chest:4>],
 	[<minecraft:tripwire_hook>]],
 	[<betterbeginnings:thread> * 2, <minecraft:redstone> * 2]);
+
+// Add an advanced recipe for chain armor
+recipes.remove(<minecraft:chainmail_helmet>);
+recipes.remove(<minecraft:chainmail_chestplate>);
+recipes.remove(<minecraft:chainmail_leggings>);
+recipes.remove(<minecraft:chainmail_boots>);
+AdvancedCrafting.addRecipe(<minecraft:chainmail_helmet>,[
+	[<betterbeginnings:chain>, <betterbeginnings:chain>, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>]],
+	[<ore:nuggetIron> * 2, <betterbeginnings:leather_strip> * 3, <minecraft:wool:*> * 2]);
+
+AdvancedCrafting.addRecipe(<minecraft:chainmail_chestplate>,[
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, <betterbeginnings:chain>, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, <betterbeginnings:chain>, <betterbeginnings:chain>]],
+	[<ore:nuggetIron> * 6, <betterbeginnings:leather_strip> * 2, <minecraft:wool:*> * 4]);
+
+AdvancedCrafting.addRecipe(<minecraft:chainmail_leggings>,[
+	[<betterbeginnings:chain>, <betterbeginnings:chain>, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>]],
+	[<ore:nuggetIron> * 4, <betterbeginnings:leather_strip> * 4, <minecraft:wool:*> * 1]);
+
+AdvancedCrafting.addRecipe(<minecraft:chainmail_boots>,[
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>],
+	[<betterbeginnings:chain>, null, <betterbeginnings:chain>]],
+	[<ore:nuggetIron> * 3, <betterbeginnings:leather_strip> * 2, <minecraft:wool:*> * 3]);
