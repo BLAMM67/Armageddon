@@ -29,35 +29,35 @@ recipes.remove(<ompd:fence:2>);
 recipes.remove(<ompd:fence:3>);
 recipes.remove(<ompd:fence:4>);
 
-recipes.addShaped(<ompd:fence>, [
-	[<immersiveengineering:material:1>, <immersiveengineering:material:1>, <immersiveengineering:material:1> ],
+recipes.addShaped(<ompd:fence> * 4, [
 	[<immersiveengineering:material:1>, <immersiveengineering:woodenDecoration>, <immersiveengineering:material:1>],
-	[<immersiveengineering:material:1>, <immersiveengineering:material:1>, <immersiveengineering:material:1>]
+	[<immersiveengineering:woodenDecoration>, <immersiveengineering:material:1>, <immersiveengineering:woodenDecoration> ],
+	[<immersiveengineering:material:1>, <immersiveengineering:woodenDecoration>, <immersiveengineering:material:1>]
 ]);
 
-recipes.addShaped(<ompd:fence:1>, [
-	[<immersiveengineering:material:3>, <immersiveengineering:material:3>, <immersiveengineering:material:3> ],
+recipes.addShaped(<ompd:fence:1> * 4, [
 	[<immersiveengineering:material:3>, <ompd:fence>, <immersiveengineering:material:3>],
-	[<immersiveengineering:material:3>, <immersiveengineering:material:3>, <immersiveengineering:material:3>]
+	[<ompd:fence>, <immersiveengineering:material:3>,<ompd:fence>],
+	[<immersiveengineering:material:3>, <ompd:fence>, <immersiveengineering:material:3>]
 ]);
 
 val electrumRod = <tconstruct:tool_rod>.withTag({Material: "electrum"});
-recipes.addShaped(<ompd:fence:2>, [
-	[electrumRod, electrumRod, electrumRod ],
+recipes.addShaped(<ompd:fence:2> * 4, [
 	[electrumRod, <ompd:fence:1>, electrumRod],
-	[electrumRod, electrumRod, electrumRod]
+	[<ompd:fence:1>, electrumRod, <ompd:fence:1>],
+	[electrumRod, <ompd:fence:1>, electrumRod]
 ]);
 
 val cobaltRod = <tconstruct:tool_rod>.withTag({Material: "cobalt"});
-recipes.addShaped(<ompd:fence:3>, [
-	[cobaltRod, cobaltRod, cobaltRod ],
+recipes.addShaped(<ompd:fence:3> * 4, [
 	[cobaltRod, <ompd:fence:2>, cobaltRod],
-	[cobaltRod, cobaltRod, cobaltRod]
+	[<ompd:fence:2>, cobaltRod, <ompd:fence:2>],
+	[cobaltRod, <ompd:fence:2>, cobaltRod]
 ]);
 
 val manyullynRod = <tconstruct:tool_rod>.withTag({Material: "manyullyn"});
-recipes.addShaped(<ompd:fence:4>, [
-	[manyullynRod, manyullynRod, manyullynRod ],
+recipes.addShaped(<ompd:fence:4> * 4, [
 	[manyullynRod, <ompd:fence:3>, manyullynRod],
-	[manyullynRod, manyullynRod, manyullynRod]
+	[<ompd:fence:3>, manyullynRod, <ompd:fence:3>],
+	[manyullynRod, <ompd:fence:3>, manyullynRod]
 ]);
