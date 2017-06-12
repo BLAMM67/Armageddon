@@ -26,20 +26,21 @@ recipes.addShaped(<backpack:backpack_frame:2>,
 );
 
 recipes.addShaped(<backpack:backpack_piece>.withTag({leather_tier: "III", frame_tier: "III"}),
-	[[<immersiveengineering:material:5>,<immersiveengineering:material:5>,<immersiveengineering:material:5>],
-	[<immersiveengineering:material:5>,<backpack:backpack_frame:1>,<immersiveengineering:material:5>],
-	[<immersiveengineering:material:5>,null,<immersiveengineering:material:5>]]
+	[[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
+	[<ore:fabricHemp>,<backpack:backpack_frame:1>,<ore:fabricHemp>],
+	[<ore:fabricHemp>,null,<ore:fabricHemp>]]
 );
 
 recipes.addShaped(<backpack:backpack_piece:1>.withTag({leather_tier: "III", frame_tier: "III"}),
-	[[<betterbeginnings:cloth>,<betterbeginnings:cloth>,<betterbeginnings:cloth>],
-	[<betterbeginnings:cloth>,<backpack:backpack_frame:2>,<betterbeginnings:cloth>],
-	[<betterbeginnings:cloth>,<betterbeginnings:cloth>,<betterbeginnings:cloth>]]
+	[[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
+	[<ore:fabricHemp>,<backpack:backpack_frame:2>,<ore:fabricHemp>],
+	[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>]]
 );
 
 recipes.addShaped(<backpack:backpack_piece:2>.withTag({leather_tier: "III", frame_tier: "III"}),
-	[[<immersiveengineering:material:5>,null,<immersiveengineering:material:5>],
-	[<immersiveengineering:material:5>,<backpack:backpack_frame:1>,<immersiveengineering:material:5>],
-	[<immersiveengineering:material:5>,<immersiveengineering:material:5>,<immersiveengineering:material:5>]]
+	[[<ore:fabricHemp>,null,<ore:fabricHemp>],
+	[<ore:fabricHemp>,<backpack:backpack_frame:1>,<ore:fabricHemp>],
+	[<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>]]
 );
 
+<backpack:backpack_frame:2>.displayName = "Steel Frame";
