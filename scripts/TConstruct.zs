@@ -1,3 +1,4 @@
+import mods.betterbeginnings.AdvancedCrafting;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
 
@@ -34,6 +35,8 @@ recipes.addShaped(<tconstruct:seared_furnace_controller>, [
 Casting.removeBasinRecipe(<tconstruct:seared_furnace_controller>, <liquid:stone> * 576, <minecraft:furnace>);
 Casting.addBasinRecipe(<tconstruct:seared_furnace_controller>, <liquid:stone> * 576, <betterbeginnings:kiln>, true, 204);
 
+// Remove the stone torch since it doesn't follow the WTF torch mechanics
+recipes.remove(<tconstruct:stone_torch>);
 
 // Punji stick need to be more expensive
 recipes.remove(<tconstruct:punji>);
@@ -61,6 +64,14 @@ recipes.addShaped(<tconstruct:slime_sapling:2>, [
 // We need recipies for the two slime balls that no mob drops
 recipes.addShapeless(<tconstruct:edible:2>, [<tconstruct:edible:1>, <tconstruct:edible:3>]);
 recipes.addShapeless(<tconstruct:edible:4>, [<minecraft:slime_ball>, <tconstruct:edible:3>]);
+
+// Move stone ladder to advanced crafting
+recipes.remove(<tconstruct:stone_ladder>);
+AdvancedCrafting.addRecipe(<tconstruct:stone_ladder> * 3,[
+	[<ore:rodStone>, null, <ore:rodStone>],
+	[<ore:rodStone>, <ore:rodStone>, <ore:rodStone>],
+	[<ore:rodStone>, null, <ore:rodStone>]],
+	[<immersiveengineering:wirecoil:3>]);
 
 
 // Let's make a use for the vanilla tools
