@@ -5,6 +5,7 @@ logs/
 mods/
 resourcepacks/
 saves/
+screenshots/
 .curseclient
 minecraftinstance.json
 minetweaker.log
