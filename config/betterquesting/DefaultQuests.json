@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "hardcore": false,
       "home_image": "armageddon:textures/gui/armageddon_title.png",
-      "editMode": false,
+      "editMode": true,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -1051,11 +1051,11 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Into the Abyss",
+          "name": "Look Into the Abyss",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Do not enter the portal until you are well prepared. The abyss is filled with even more horrors than the overworld. Once you are there, you can continue your quest."
         }
       },
       "tasks": [
@@ -1103,7 +1103,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "If you think you\u0027re ready to start your path to ending this nightmare, the first step is to get your hands on a Necronomicon. It\u0027s an ancient tome of dark magic filled with arcane secrets. You\u0027ll have to search in desert tombs to find it. Be careful. It\u0027s probably not unguarded."
         }
       },
       "tasks": [
@@ -1157,7 +1157,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The gateway key is your ticket to terror and violence. It is also the only way to get to the creature behind the invasion of your world."
         }
       },
       "tasks": [
@@ -1204,77 +1204,39 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Corelium pearls are very important in the magic of the old ones. To get one, craft some corelium infused stone and cook it."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "abyssalcraft:cpearl",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        20
-      ],
-      "questID": 19
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "abyssalcraft:coraliumstone",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Coralium Infused Stone",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "abyssalcraft:coraliumstone",
-              "Count": 2,
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "abyssalcraft:cpearl",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
         21
       ],
-      "questID": 20
+      "questID": 19
     },
     {
       "properties": {
@@ -1298,7 +1260,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "These gems can be mined fro ore found under oceans or swamp biomes. They are quite valuable and you will need a lot of them."
         }
       },
       "tasks": [
@@ -1348,17 +1310,29 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The oblivion catalyst is the single most important part of the gateway key. A lot goes into making it, but take your time. You want to get it right."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
+            {
+              "id": "abyssalcraft:transmutationgem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "abyssalcraft:oblivionshard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
             {
               "id": "abyssalcraft:oc",
               "Count": 1,
@@ -1372,56 +1346,10 @@
       ],
       "rewards": [],
       "preRequisites": [
-        23
+        24,
+        19
       ],
       "questID": 22
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": true,
-          "simultaneous": false,
-          "icon": {
-            "id": "abyssalcraft:oblivionshard",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Oblivion Shards",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "abyssalcraft:oblivionshard",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        24
-      ],
-      "questID": 23
     },
     {
       "properties": {
@@ -1445,7 +1373,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Shadow gems are the result of piecing together smaller shards of shadow."
         }
       },
       "tasks": [
@@ -1455,7 +1383,7 @@
           "requiredItems": [
             {
               "id": "abyssalcraft:shadowgem",
-              "Count": 16,
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -1466,8 +1394,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        25,
-        27
+        25
       ],
       "questID": 24
     },
@@ -1493,7 +1420,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Shadow creatures are some of the horrible mostrosities that have been let loose on this world. You cabn find them in darklands biomes or deep underground. They drop pieces of shadow that you will need, so unfortunately you will need to track them down and kill quite a lot of them."
         }
       },
       "tasks": [
@@ -1543,7 +1470,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The Necronomicon has a lot of information. It might be a bit confusing. You will have to use it as your primary source, but I will try to guide you through it. \nWhat you need to do now is create a ritual alter. It\u0027s simple enough to do, you also have to collect some statues of the old ones to power it. That\u0027s isn\u0027t so simple. You will need to locate a shoggoth\u0027s lair. When enough shoggoths have collected, they erect mighty pillars to worship the old ones. On top of these pillars you will find a statue. bring these staties back to your altar so you can begin collecting the power they emit. The necronomicon has the details for all this."
         }
       },
       "tasks": [
@@ -1580,56 +1507,6 @@
           "isMain": true,
           "simultaneous": false,
           "icon": {
-            "id": "abyssalcraft:transmutationgem",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "snd_update": "minecraft:entity.player.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "Transmutation Gem",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "abyssalcraft:transmutationgem",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        19
-      ],
-      "questID": 27
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "minecraft:entity.player.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": true,
-          "simultaneous": false,
-          "icon": {
             "id": "abyssalcraft:energypedestal",
             "Count": 1,
             "OreDict": "",
@@ -1646,7 +1523,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Energy pedestals are for collecting the energy from the statues. If the pedestal is within 3 blocks of one or more statues, place your Necronomicon, or other object, on the pedestal to charge it with energy."
         }
       },
       "tasks": [
@@ -1737,8 +1614,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        28,
-        25
+        28
       ],
       "questID": 29
     },
@@ -1764,7 +1640,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You can make small pillars out of the monolithic stone that the shoggoth pillars are made from. They are useful for placaing the old ones statues."
         }
       },
       "tasks": [
@@ -1814,7 +1690,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The sacrificial altar lets you sacrifice animals or monsters for energy. Once a sacrifice has been selected by the altar, it will begin to smoke. Kill it and the altar will collect energy from it."
         }
       },
       "tasks": [
@@ -1867,7 +1743,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Energy relays can be used to transfer energy from where it has been collected to where it will be used. This can be handy since the statues can be dangerous to be around."
         }
       },
       "tasks": [
@@ -1917,7 +1793,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Once you\u0027ve got your ritual altar setup you can use it to create all sorts of useful items. For instance, a pickpocket gauntlet that lets you steal back your items from a soul. It doesn\u0027t always work, and when it doesn\u0027t the soul will attack you, but it can give you a big advantage."
         }
       },
       "tasks": [
@@ -1995,8 +1871,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        24,
-        23
+        24
       ],
       "questID": 34
     },
@@ -4217,7 +4092,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Extra Thick Alchemy",
+          "name": "Extra Thicc Alchemy",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -5635,7 +5510,7 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Twisty passages",
+          "name": "Twisty Passages",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
@@ -6774,7 +6649,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Reinforced concrete is a good start. Now you can make a hardened block That is even more durable. Start making a bunch of this because you\u0027ll need it to make your unassailable fortress."
         }
       },
       "tasks": [
@@ -6821,7 +6696,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "There is a hierarchy of hardened blocks, each one tougher and steonger than the previous. You can reinforce each level of hardened block until its becomes virtually impossible to destroy."
         }
       },
       "tasks": [
@@ -7012,7 +6887,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Stone walls keep things out, but don\u0027t last when creepers are roaming. Luckily, you can make hardened walls that will stand up to the punishment."
         }
       },
       "tasks": [
@@ -7271,7 +7146,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The hardened blocks are great for building a bunker, but they can be a bit expensive and sometimes you just want to fence off an area, not completely enclose it. The hardened fences are nearly as tough as the blocks but they are cheaper to make."
         }
       },
       "tasks": [
@@ -7470,7 +7345,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "They say that the best defense is a good offense. But there\u0027s something to be said for a really good defense too. Automated turrets are a great defense. They start simple but become increasingly more deadly."
         }
       },
       "tasks": [
@@ -7517,7 +7392,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Heavier guns need a heavier base."
         }
       },
       "tasks": [
@@ -7564,7 +7439,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "There\u0027s still room for improvment. Every upgrade opens new posibilities."
         }
       },
       "tasks": [
@@ -7611,7 +7486,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Heavy duty stuff coming up. Upgrade the turrets for access to them."
         }
       },
       "tasks": [
@@ -7658,7 +7533,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Last time. I promise."
         }
       },
       "tasks": [
@@ -7705,7 +7580,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "There are a few addtions you can add to turrets to enhance their capabilities. You can only add two of them, so consider carefully which ones you use."
         }
       },
       "tasks": [
@@ -7788,7 +7663,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The simplest turrets can use almost anything as ammo. they don\u0027t do a lot of damage, but you can keep them running for cheap."
         }
       },
       "tasks": [
@@ -7841,7 +7716,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "If you\u0027re done throwing trash at the enemy, make some real slug throwers. Or if hot lead isn\u0027t good enough, just send the heat."
         }
       },
       "tasks": [
@@ -7906,7 +7781,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Getting into the interesting weapons now. Chuck grenades at the enemy with the grenade launcher or slow them down with the relativistic turret."
         }
       },
       "tasks": [
@@ -7965,7 +7840,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Rockets, baby! Rockets!\n\nAnd a teleporter turret that transports mobs to on top of it. Crazy!"
         }
       },
       "tasks": [
@@ -8024,7 +7899,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Lasers and rail guns. This is the top tier. The enemy won\u0027t know what hit them."
         }
       },
       "tasks": [
@@ -8083,7 +7958,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "Turrent not firing fast enough for you? Not doing enough damage? Range is too short? Just upgrade it."
         }
       },
       "tasks": [
@@ -8262,7 +8137,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You have the right to bear arms. I suggest you bear as many as you can."
         }
       },
       "tasks": [
@@ -8316,7 +8191,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The revolver is a very flexible weapon. There is a specialized round for almost any task. Assuming that task has something to do with killing things. Review the Engineer\u0027s manual for the effect of each of these rounds and how to make them."
         }
       },
       "tasks": [
@@ -8429,7 +8304,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You can upgrade the revolver with various modules. Check the Engineer\u0027s Manual for more details."
         }
       },
       "tasks": [
@@ -8494,7 +8369,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "A big gun for a big job. this gun is the biggest. It fires rods of steel at high velocities. It can go right through the biggest monsters."
         }
       },
       "tasks": [
@@ -8527,7 +8402,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        5
+        5,
+        145
       ],
       "questID": 148
     },
@@ -8553,7 +8429,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "The chemical thrower lets you spray various liquids, like lava, water, ethenol, and others. Hose down your foes with flaming liquid death!"
         }
       },
       "tasks": [
@@ -8586,7 +8462,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        5
+        5,
+        145
       ],
       "questID": 149
     },
@@ -8655,11 +8532,11 @@
           "repeatTime": -1,
           "globalShare": false,
           "questLogic": "AND",
-          "name": "Exfoliate!",
+          "name": "Exterminate!",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "These turrets need a bit of power, but they can cover a wide area with automatic fire. Just the thing for your personal home defense system."
         }
       },
       "tasks": [
@@ -8672,6 +8549,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 10
+            },
+            {
+              "id": "immersiveengineering:metalDevice1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -8680,7 +8563,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        149
+        149,
+        148
       ],
       "questID": 151
     },
@@ -8706,7 +8590,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "No Description"
+          "desc": "You probably have a base of some sort. If you haven\u0027t already realized it, it won\u0027t be safe for long. The monsters will eventually get in. Fortunately, there are some building materials that will stand up to the assault. You may be tempted to use obsidian, but let me assue you the strengths of obsidian have been greatly exaggerated. You know its basically glass, right?\n\nThere are much stronger building materials. Concrete, for instance. It\u0027s harder than stone and can resist explosions better. It\u0027s even stronger if you reinforce it with a bit of lead."
         }
       },
       "tasks": [
@@ -8719,6 +8603,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 5
+            },
+            {
+              "id": "immersiveengineering:stoneDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -9505,6 +9395,195 @@
         8
       ],
       "questID": 167
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "backpack:backpack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Big Pockets",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You\u0027re probably getting encumbered by lots of items and materials. You can make a chest once you\u0027ve gotten some iron, but you\u0027re gonna want something to help you carry everything around before then. A small backpack will help relieve the burden. Once you\u0027ve gotten access to better materials you can make even bigger packs."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "backpack:backpack_frame",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "backpack:backpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        2
+      ],
+      "questID": 168
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "backpack:backpack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 100
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Portable Hole",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "You can upgrade your backpack with one that\u0027s a bit bigger with some treated wood, stone rods, and some tough fabric."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "backpack:backpack_frame",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "backpack:backpack_piece",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "leather_tier:8": "III",
+                "frame_tier:8": "III"
+              }
+            },
+            {
+              "id": "backpack:backpack_piece",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "leather_tier:8": "III",
+                "frame_tier:8": "III"
+              }
+            },
+            {
+              "id": "backpack:backpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 100
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        168
+      ],
+      "questID": 169
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "minecraft:entity.player.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "backpack:backpack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 200
+          },
+          "snd_update": "minecraft:entity.player.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Handy Haversack",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "Your final backpack upgrade requires steel, so be patient. It\u0027s worth the wait to be able to haul around a ton of equipment."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "backpack:backpack_frame",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "backpack:backpack_piece",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "leather_tier:8": "III",
+                "frame_tier:8": "III"
+              }
+            },
+            {
+              "id": "backpack:backpack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 200
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        169
+      ],
+      "questID": 170
     }
   ],
   "questLines": [
@@ -9520,20 +9599,20 @@
       "quests": [
         {
           "size": 24,
-          "x": 72,
-          "y": 84,
+          "x": -54,
+          "y": 96,
           "id": 32
         },
         {
           "size": 24,
-          "x": 72,
+          "x": 54,
           "y": 42,
           "id": 33
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 258,
+          "x": 162,
+          "y": 252,
           "id": 16
         },
         {
@@ -9544,21 +9623,15 @@
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 258,
+          "x": 90,
+          "y": 252,
           "id": 18
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 210,
-          "id": 19
-        },
-        {
-          "size": 24,
           "x": 120,
-          "y": 210,
-          "id": 20
+          "y": 132,
+          "id": 19
         },
         {
           "size": 24,
@@ -9568,20 +9641,14 @@
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 258,
+          "x": 0,
+          "y": 252,
           "id": 22
         },
         {
           "size": 24,
           "x": -120,
-          "y": 258,
-          "id": 23
-        },
-        {
-          "size": 24,
-          "x": -120,
-          "y": 210,
+          "y": 132,
           "id": 24
         },
         {
@@ -9598,32 +9665,26 @@
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 210,
-          "id": 27
-        },
-        {
-          "size": 24,
           "x": 0,
           "y": 132,
           "id": 28
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 132,
+          "x": 0,
+          "y": 180,
           "id": 29
         },
         {
           "size": 24,
-          "x": -48,
+          "x": -54,
           "y": 42,
           "id": 30
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 132,
+          "x": 54,
+          "y": 96,
           "id": 31
         }
       ],
@@ -9714,15 +9775,33 @@
         },
         {
           "size": 24,
+          "x": -108,
+          "y": 54,
+          "id": 168
+        },
+        {
+          "size": 24,
           "x": 216,
           "y": 0,
           "id": 9
         },
         {
           "size": 24,
+          "x": -108,
+          "y": 108,
+          "id": 169
+        },
+        {
+          "size": 24,
           "x": 54,
           "y": 216,
           "id": 10
+        },
+        {
+          "size": 24,
+          "x": -108,
+          "y": 162,
+          "id": 170
         },
         {
           "size": 24,
@@ -10479,25 +10558,25 @@
         {
           "size": 24,
           "x": -174,
-          "y": 144,
+          "y": 246,
           "id": 148
         },
         {
           "size": 24,
-          "x": -120,
-          "y": 144,
+          "x": -66,
+          "y": 246,
           "id": 149
         },
         {
           "size": 24,
           "x": -120,
-          "y": 246,
+          "y": 144,
           "id": 150
         },
         {
           "size": 24,
-          "x": -66,
-          "y": 144,
+          "x": -120,
+          "y": 300,
           "id": 151
         },
         {
