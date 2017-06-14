@@ -1,7 +1,9 @@
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Squeezer;
 import mods.tconstruct.Casting;
 
+//http://minetweaker3.powerofbytes.com/wiki/Mods:Immersive_Engineering_Support
 print("*** Tweaking Immersive Engineering ***");
 
 
@@ -14,6 +16,41 @@ recipes.remove(<immersiveengineering:toolupgrade:4>);
 recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
 	[<tconstruct:sword_blade>.withTag({Material: "iron"}), <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <ore:plankTreatedWood>]
 ]);
+
+// Since there are no villagers to buy them from, add a recipe for blue prints
+val bulletBlueprint = <immersiveengineering:blueprint>.withTag({blueprint: "bullet"});
+recipes.remove(bulletBlueprint);
+AdvancedCrafting.addRecipe(bulletBlueprint, [
+	[<ore:gunpowder>, <ore:ingotAlubrass>, <ore:gunpowder>],
+	[<ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>],
+	[<ore:paper>, <ore:paper>, <ore:paper>]],
+	[<ore:feather>, <ore:dyeBlack>]);
+AdvancedCrafting.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}), [
+	[<ore:gunpowder>, <ore:ingotAlubrass>, <ore:gunpowder>],
+	[<ore:ingotAlubrass>, bulletBlueprint, <ore:ingotAlubrass>],
+	[<ore:gunpowder>, <ore:ingotAlubrass>, <ore:gunpowder>]],
+	[<ore:paper> * 2, <ore:dyeBlack> * 2]);
+AdvancedCrafting.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [
+	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>],
+	[<ore:ingotHOPGraphite>, bulletBlueprint, <ore:ingotHOPGraphite>],
+	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]],
+	[<ore:paper> * 2, <ore:dyeBlack> * 2]);
+
+// Brass should be made of brass
+recipes.remove(<immersiveengineering:bullet>);
+recipes.remove(<immersiveengineering:bullet:1>);
+recipes.addShaped(<immersiveengineering:bullet> * 5, [
+	[<ore:ingotAlubrass>, null, <ore:ingotAlubrass>], 
+	[<ore:ingotAlubrass>, null, <ore:ingotAlubrass>], 
+	[null, <ore:ingotAlubrass>, null]]);
+recipes.addShaped(<immersiveengineering:bullet:1>, [
+	[<minecraft:paper>, <ore:dyeRed>, <minecraft:paper>], 
+	[<minecraft:paper>, <ore:dyeRed>, <minecraft:paper>], 
+	[null, <ore:ingotAlubrass>, null]]);
+
+MetalPress.removeRecipe(<immersiveengineering:bullet> * 2);
+MetalPress.addRecipe(<immersiveengineering:bullet> * 2, <ore:ingotAlubrass>, <immersiveengineering:mold:3>, 500, 1);
+
 
 
 // Reduce output of the metal rod recipies to encourage the use of the Metal Press
