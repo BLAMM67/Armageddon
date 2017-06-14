@@ -61,9 +61,9 @@ recipes.addShaped(<tconstruct:slime_sapling:2>, [
 	[<tconstruct:edible:4>, <ore:treeSapling>, <tconstruct:edible:4>], 
 	[<tconstruct:edible:4>, <tconstruct:edible:4>, <tconstruct:edible:4>]]);
 
-// We need recipies for the two slime balls that no mob drops
+// We need recipies for the purple slime ball that no mob drops
 recipes.addShapeless(<tconstruct:edible:2>, [<tconstruct:edible:1>, <tconstruct:edible:3>]);
-recipes.addShapeless(<tconstruct:edible:4>, [<minecraft:slime_ball>, <tconstruct:edible:3>]);
+
 
 // Move stone ladder to advanced crafting
 recipes.remove(<tconstruct:stone_ladder>);
