@@ -1,0 +1,29 @@
+ac.ritual.soul_gauntlet=Soul Gauntlet
+ac.ritual.soul_gauntlet.desc=The Pickpocket's Gauntlet can be used to attempt to steal items from a Soul. If the thief fails, however, the Soul will attack. By default, the Pickpocket's Gauntlet has a 10% success rate and 16 charges that can be refilled using Ender Pearls. 
+
+ac.ritual.gem_speed=Speed Gem
+ac.ritual.gem_speed.desc=
+ac.ritual.gem_haste=Haste Gem
+ac.ritual.gem_haste.desc=
+ac.ritual.gem_strength=Strength Gem
+ac.ritual.gem_strength.desc=
+ac.ritual.gem_regeneration=Regeneration Gem
+ac.ritual.gem_regeneration.desc=
+ac.ritual.gem_resistance=Resistance Gem
+ac.ritual.gem_resistance.desc=
+ac.ritual.gem_resistance_fire=Fire Resistance Gem
+ac.ritual.gem_resistance_fire.desc=
+ac.ritual.gem_invisibility=Invisibility Gem
+ac.ritual.gem_invisibility.desc=
+ac.ritual.gem_absorption=Absorbtion Gem
+ac.ritual.gem_absorption.desc=
+ac.ritual.gem_night_vision=Night Vision Gem
+ac.ritual.gem_night_vision.desc=
+ac.ritual.gem_jump_boost=Jump Boost Gem
+ac.ritual.gem_jump_boost.desc=
+
+ac.ritual.abyssalcraft.odbcore=ODB Core
+ac.ritual.abyssalcraft.odbcore.desc=
+
+ac.ritual.abyssalcraft.exreaper=Ex-Reaper
+ac.ritual.abyssalcraft.exreaper.desc=
