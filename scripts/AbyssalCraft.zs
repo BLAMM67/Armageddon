@@ -54,6 +54,24 @@ mods.abyssalcraft.InfusionRitual.addRitual("abyssalcraft.exreaper",
 ]);
 
 
+// Replace recipes for the machines
+recipes.remove(<abyssalcraft:transmutator>);
+recipes.remove(<abyssalcraft:crystallizer>);
+recipes.remove(<abyssalcraft:materializer>);
+recipes.addShaped(<abyssalcraft:transmutator>, [
+		[<immersiveengineering:metalDecoration0:4>, <abyssalcraft:transmutationgem>, <immersiveengineering:metalDecoration0:4>],
+		[<abyssalcraft:cbrick>, <immersiveengineering:metalDecoration0:3>, <abyssalcraft:cbrick>],
+		[<abyssalcraft:corblock>, <forge:bucketFilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <abyssalcraft:corblock>]]);
+recipes.addShaped(<abyssalcraft:crystallizer>, [
+		[<immersiveengineering:metalDecoration0:3>, <abyssalcraft:dreadbrick>, <immersiveengineering:metalDecoration0:3>],
+		[<immersiveengineering:metalDecoration0:4>, <immersiveengineering:metalDevice1:1>, <immersiveengineering:metalDecoration0:4>],
+		[<abyssalcraft:dreadiumblock>, <abyssalcraft:dreadbrick>, <abyssalcraft:dreadiumblock>]]);
+recipes.addShaped(<abyssalcraft:materializer>, [
+		[<immersiveengineering:metalDecoration0:1>, <abyssalcraft:ethbrick>, <immersiveengineering:metalDecoration0:1>],
+		[<abyssalcraft:ethbrick>, <immersiveengineering:metalDecoration0:5>, <abyssalcraft:ethbrick>],
+		[<abyssalcraft:ethaxiumblock>, <forge:bucketFilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <abyssalcraft:ethaxiumblock>]]);
+
+
 // Adding recipies so the necronomicons can be upgraded by copying from an already upgraded version
 recipes.remove(<abyssalcraft:necronomicon>);
 recipes.addShapeless(<abyssalcraft:necronomicon>, [<abyssalcraft:necronomicon>.reuse(), <minecraft:book>]);
@@ -77,14 +95,6 @@ recipes.addShaped(<abyssalcraft:gatewaykeyjzh>, [
 	[null, <abyssalcraft:gatewaykeyjzh>.reuse(), <ore:ingotEthaxiumBrick>],
 	[<ore:ingotEthaxiumBrick>, null, null]
 ]);
-
-
-// Replacing the vanilla furnace with the kiln in all recipies
-recipes.remove(<abyssalcraft:crystallizer>);
-recipes.addShaped(<abyssalcraft:crystallizer>, [
-	[<abyssalcraft:dreadbrick>, <abyssalcraft:dreadbrick>, <abyssalcraft:dreadbrick>], 
-	[<abyssalcraft:dreadiumblock>, <betterbeginnings:kiln>, <abyssalcraft:dreadiumblock>], 
-	[<abyssalcraft:dreadbrick>, <abyssalcraft:dreadbrick>, <abyssalcraft:dreadbrick>]]);
 
 
 // Replace recipies for coins and engravings

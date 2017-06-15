@@ -1,4 +1,5 @@
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.immersiveengineering.MetalPress;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
 
@@ -87,7 +88,7 @@ Smeltery.addMelting(<liquid:iron> * 16, <minecraft:iron_pickaxe:1>, 200);
 Smeltery.addMelting(<liquid:iron> * 16, <minecraft:iron_shovel:1>, 200);
 Smeltery.addMelting(<liquid:iron> * 16, <minecraft:iron_sword:1>, 200);
 
-Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_axe>, 200);
+Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_axe>, 3200);
 Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_hoe>, 200);
 Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_pickaxe>, 200);
 Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_shovel>, 200);
@@ -98,3 +99,6 @@ Smeltery.addMelting(<liquid:gold> * 16, <minecraft:golden_hoe:1>, 200);
 Smeltery.addMelting(<liquid:gold> * 16, <minecraft:golden_pickaxe:1>, 200);
 Smeltery.addMelting(<liquid:gold> * 16, <minecraft:golden_shovel:1>, 200);
 Smeltery.addMelting(<liquid:gold> * 16, <minecraft:golden_sword:1>, 200);
+
+// Making spaghetti
+MetalPress.addRecipe(<tconstruct:spaghetti>, <ore:cropWheat>, <immersiveengineering:mold:2>, 500, 16);

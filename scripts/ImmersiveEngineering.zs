@@ -30,10 +30,11 @@ AdvancedCrafting.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: 
 	[<ore:ingotAlubrass>, bulletBlueprint, <ore:ingotAlubrass>],
 	[<ore:gunpowder>, <ore:ingotAlubrass>, <ore:gunpowder>]],
 	[<ore:paper> * 2, <ore:dyeBlack> * 2]);
+val damagedGraphiteRod = <immersiveengineering:graphiteElectrode:48000>.withTag({graphDmg: 48000});
 AdvancedCrafting.addRecipe(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), [
-	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>],
-	[<ore:ingotHOPGraphite>, bulletBlueprint, <ore:ingotHOPGraphite>],
-	[<ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>, <ore:ingotHOPGraphite>]],
+	[<ore:ingotHOPGraphite>, damagedGraphiteRod, <ore:ingotHOPGraphite>],
+	[damagedGraphiteRod, bulletBlueprint, damagedGraphiteRod],
+	[<ore:ingotHOPGraphite>, damagedGraphiteRod, <ore:ingotHOPGraphite>]],
 	[<ore:paper> * 2, <ore:dyeBlack> * 2]);
 
 // Brass should be made of brass
