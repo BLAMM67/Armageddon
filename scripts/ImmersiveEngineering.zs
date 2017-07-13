@@ -11,6 +11,14 @@ print("*** Tweaking Immersive Engineering ***");
 Squeezer.addRecipe(null, <liquid:plantoil> * 80, <minecraft:beetroot_seeds>, 240);
 
 
+// Reduce cost of leaded concrete
+recipes.remove(<immersiveengineering:stoneDecoration:7>);
+recipes.addShaped(<immersiveengineering:stoneDecoration:7> * 8, [
+	[<ore:concrete>, <ore:concrete>, <ore:concrete>], 
+	[<ore:concrete>, <ore:plateLead>, <ore:concrete>], 
+	[<ore:concrete>, <ore:concrete>, <ore:concrete>]
+]);
+
 // Update the Bayonet with a tinkers knife blade instead of a vanilla iron sword
 recipes.remove(<immersiveengineering:toolupgrade:4>);
 recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
