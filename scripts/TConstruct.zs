@@ -6,22 +6,6 @@ import mods.tconstruct.Smeltery;
 //http://minetweaker3.powerofbytes.com/wiki/ModTweaker:TConstruct_Support_1.10.2
 print("*** Tweaking TConstruct ***");
 
-// Harvest levels
-val stone    = 0;
-val iron     = 1;
-val diamond  = 2;
-val obsidian = 3;
-val cobalt   = 4;
-val corelium = 5;
-val dreadium = 6;
-
-// Adjust material harvest levels to build a gated path to manyullyn
-<material:obsidian>.harvestLevelHead = obsidian;
-<material:abyssalnite>.harvestLevelHead = diamond;
-<material:refined_coralium>.harvestLevelHead = cobalt;
-<material:manyullyn>.harvestLevelHead = corelium;
-
-
 // Replace vanilla workbench with BB workbench in tool table recipe
 recipes.addShaped(<tconstruct:tooltables:3>,
 	[ [<ore:pattern>], [<betterbeginnings:double_workbench>] ] );
