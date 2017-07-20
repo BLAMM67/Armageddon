@@ -9,7 +9,7 @@ recipes.remove(<ompd:hardened:2>);
 recipes.remove(<ompd:hardened:3>);
 recipes.remove(<ompd:hardened:4>);
 
-// Use leaded concrete as the base for hrdened blocks
+// Use leaded concrete as the base for hardened blocks
 recipes.addShaped(<ompd:hardened>, [
 	[<ore:gravel>, <ore:cobblestone>, <ore:gravel> ],
 	[<ore:cobblestone>, <immersiveengineering:stoneDecoration:7>, <ore:cobblestone>],
