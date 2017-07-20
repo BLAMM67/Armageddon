@@ -15,7 +15,7 @@ Squeezer.addRecipe(null, <liquid:plantoil> * 80, <minecraft:beetroot_seeds>, 240
 recipes.remove(<immersiveengineering:stoneDecoration:7>);
 recipes.addShaped(<immersiveengineering:stoneDecoration:7> * 8, [
 	[<ore:concrete>, <ore:concrete>, <ore:concrete>], 
-	[<ore:concrete>, <ore:plateLead>, <ore:concrete>], 
+	[<ore:concrete>, <ore:dustLead>, <ore:concrete>], 
 	[<ore:concrete>, <ore:concrete>, <ore:concrete>]
 ]);
 
