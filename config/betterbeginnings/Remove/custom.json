@@ -12,7 +12,7 @@
   "smeltingRemoved": [
     {
       "removedItem": {
-        "itemName": "betterbeginnings:testItem",
+        "itemName": "betterbeginnings:test_item",
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0

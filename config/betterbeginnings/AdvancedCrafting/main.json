@@ -6,7 +6,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -27,7 +28,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -38,7 +40,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -59,7 +62,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -70,7 +74,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -91,7 +96,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -102,7 +108,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -123,7 +130,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -134,7 +142,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -155,7 +164,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -166,7 +176,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 3
+        "stackSize": 3,
+        "nbt": null
       },
       "recipe": [
         "##",
@@ -187,7 +198,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -198,7 +210,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "II",
@@ -219,7 +232,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -230,7 +244,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -256,14 +271,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -274,7 +291,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -300,14 +318,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -318,7 +338,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -344,14 +365,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -362,7 +385,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -388,14 +412,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -406,7 +432,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -432,14 +459,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -450,7 +479,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "/#/",
@@ -476,14 +506,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -494,7 +526,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -514,7 +547,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -525,7 +559,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -546,14 +581,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -564,7 +601,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "C",
@@ -590,14 +628,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "dustRedstone",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -608,7 +648,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I",
@@ -641,14 +682,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         },
         {
           "itemName": "dustRedstone",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -659,7 +702,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -698,7 +742,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -709,7 +754,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -742,7 +788,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -753,7 +800,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -780,7 +828,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -791,7 +840,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 6
+        "stackSize": 6,
+        "nbt": null
       },
       "recipe": [
         "G G",
@@ -824,7 +874,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -835,7 +886,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 6
+        "stackSize": 6,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -868,14 +920,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "stickWood",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -886,7 +940,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 2
+        "stackSize": 2,
+        "nbt": null
       },
       "recipe": [
         "G#G",
@@ -913,7 +968,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -924,7 +980,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -951,7 +1008,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -962,7 +1020,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 4
+        "stackSize": 4,
+        "nbt": null
       },
       "recipe": [
         "/ /",
@@ -983,7 +1042,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -994,7 +1054,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 16
+        "stackSize": 16,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -1021,7 +1082,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1032,7 +1094,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " B ",
@@ -1065,21 +1128,24 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         },
         {
           "itemName": "dyeRed",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "gemLapis",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1090,7 +1156,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "+++",
@@ -1123,21 +1190,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_rod",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:potion",
           "isOreDictionary": false,
           "isWildcard": false,
-          "damage": 16,
-          "stackSize": 1
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": "{Potion:\"minecraft:awkward\"}"
         }
       ],
       "hideFromNEI": false
@@ -1148,7 +1218,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -1175,7 +1246,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1186,7 +1258,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 4
+        "stackSize": 4,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -1213,14 +1286,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:stone_pressure_plate",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1231,7 +1306,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 6
+        "stackSize": 6,
+        "nbt": null
       },
       "recipe": [
         "I/I",
@@ -1264,7 +1340,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1275,7 +1352,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -1302,7 +1380,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1313,7 +1392,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -1333,14 +1413,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1351,7 +1433,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " I ",
@@ -1378,14 +1461,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:potion",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1396,7 +1481,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " G ",
@@ -1423,14 +1509,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "dyeBlack",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1441,7 +1529,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "***",
@@ -1467,7 +1556,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1478,7 +1568,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " / ",
@@ -1504,14 +1595,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         },
         {
           "itemName": "nuggetIron",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1522,7 +1615,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -1543,7 +1637,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1554,7 +1649,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -1581,14 +1677,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         },
         {
           "itemName": "itemString",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1599,7 +1697,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " R ",
@@ -1626,7 +1725,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1637,7 +1737,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -1664,7 +1765,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1675,7 +1777,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "II"
@@ -1694,7 +1797,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1705,7 +1809,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "GG"
@@ -1724,7 +1829,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1735,7 +1841,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "###",
@@ -1768,7 +1875,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1779,7 +1887,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "II",
@@ -1799,7 +1908,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1810,7 +1920,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "///",
@@ -1837,7 +1948,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1848,7 +1960,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " i ",
@@ -1881,7 +1994,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -1892,7 +2006,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "///",
@@ -1919,86 +2034,11 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:bow",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " /s",
-        "/ s",
-        " /s"
-      ],
-      "ingredients": {
-        "s": {
-          "itemName": "itemString",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:bow",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "s/ ",
-        "s /",
-        "s/ "
-      ],
-      "ingredients": {
-        "s": {
-          "itemName": "itemString",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": true
     },
     {
       "output": {
@@ -2006,7 +2046,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "  /",
@@ -2033,7 +2074,8 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -2044,7 +2086,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         " I",
@@ -2064,7 +2107,1672 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:leather_helmet",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "LLL",
+        "L L"
+      ],
+      "ingredients": {
+        "L": {
+          "itemName": "minecraft:leather",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemString",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:wool",
+          "isOreDictionary": false,
+          "isWildcard": true,
+          "damage": 32767,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:leather_chestplate",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "L L",
+        "LLL",
+        "LLL"
+      ],
+      "ingredients": {
+        "L": {
+          "itemName": "minecraft:leather",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemString",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:wool",
+          "isOreDictionary": false,
+          "isWildcard": true,
+          "damage": 32767,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:leather_leggings",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "LLL",
+        "L L",
+        "L L"
+      ],
+      "ingredients": {
+        "L": {
+          "itemName": "minecraft:leather",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemString",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:wool",
+          "isOreDictionary": false,
+          "isWildcard": true,
+          "damage": 32767,
+          "stackSize": 1,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:leather_boots",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "L L",
+        "L L"
+      ],
+      "ingredients": {
+        "L": {
+          "itemName": "minecraft:leather",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemString",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:wool",
+          "isOreDictionary": false,
+          "isWildcard": true,
+          "damage": 32767,
+          "stackSize": 3,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_pickaxe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "###",
+        " / ",
+        " / "
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_sword",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "#",
+        "#",
+        "/"
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_shovel",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "#",
+        "/",
+        "/"
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "##",
+        "#/",
+        " /"
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "##",
+        "/#",
+        "/ "
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "##",
+        " /",
+        " /"
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:stone_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "##",
+        "/ ",
+        "/ "
+      ],
+      "ingredients": {
+        "#": {
+          "itemName": "stone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_pickaxe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "III",
+        " / ",
+        " / "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_sword",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I",
+        "I",
+        "/"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_shovel",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I",
+        "/",
+        "/"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "I/",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "/I",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        " /",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:iron_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "/ ",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:iron_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        " I",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:iron_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I ",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotIron",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_pickaxe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "III",
+        " / ",
+        " / "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 6,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_sword",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I",
+        "I",
+        "/"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_shovel",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I",
+        "/",
+        "/"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "I/",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "/I",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        " /",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:golden_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "II",
+        "/ ",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:gold_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        " I",
+        "/ "
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:gold_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "I ",
+        " /"
+      ],
+      "ingredients": {
+        "I": {
+          "itemName": "ingotGold",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_pickaxe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "DDD",
+        " / ",
+        " / "
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 5,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_sword",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "D",
+        "D",
+        "/"
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 5,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_shovel",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "D",
+        "/",
+        "/"
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "DD",
+        "D/",
+        " /"
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_axe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "DD",
+        "/D",
+        "/ "
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "DD",
+        " /",
+        " /"
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:diamond_hoe",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "DD",
+        "/ ",
+        "/ "
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 1,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 2,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:diamond_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        " D",
+        "/ "
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": true
+    },
+    {
+      "output": {
+        "itemName": "betterbeginnings:diamond_knife",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "D ",
+        " /"
+      ],
+      "ingredients": {
+        "D": {
+          "itemName": "gemDiamond",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        },
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0
+        }
+      },
+      "catalysts": [
+        {
+          "itemName": "dustRedstone",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "minecraft:blaze_powder",
+          "isOreDictionary": false,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 3,
+          "nbt": null
+        },
+        {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -2075,7 +3783,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "sBs",
@@ -2104,453 +3813,75 @@
       },
       "catalysts": [
         {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
     },
     {
       "output": {
-        "itemName": "minecraft:leather_helmet",
+        "itemName": "minecraft:bow",
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
-        "LLL",
-        "L L"
+        " /s",
+        "/ s",
+        " /s"
       ],
       "ingredients": {
-        "L": {
-          "itemName": "minecraft:leather",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
+        "s": {
           "itemName": "itemString",
           "isOreDictionary": true,
           "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
+          "damage": 0
         },
-        {
-          "itemName": "minecraft:wool",
-          "isOreDictionary": false,
-          "isWildcard": true,
-          "damage": 32767,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:leather_chestplate",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "L L",
-        "LLL",
-        "LLL"
-      ],
-      "ingredients": {
-        "L": {
-          "itemName": "minecraft:leather",
-          "isOreDictionary": false,
+        "/": {
+          "itemName": "stickWood",
+          "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0
         }
       },
       "catalysts": [
         {
+          "itemName": "itemStringTough",
+          "isOreDictionary": true,
+          "isWildcard": false,
+          "damage": 0,
+          "stackSize": 6,
+          "nbt": null
+        }
+      ],
+      "hideFromNEI": false
+    },
+    {
+      "output": {
+        "itemName": "minecraft:bow",
+        "isOreDictionary": false,
+        "isWildcard": false,
+        "damage": 0,
+        "stackSize": 1,
+        "nbt": null
+      },
+      "recipe": [
+        "s/ ",
+        "s /",
+        "s/ "
+      ],
+      "ingredients": {
+        "s": {
           "itemName": "itemString",
           "isOreDictionary": true,
           "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "minecraft:wool",
-          "isOreDictionary": false,
-          "isWildcard": true,
-          "damage": 32767,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:leather_leggings",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "LLL",
-        "L L",
-        "L L"
-      ],
-      "ingredients": {
-        "L": {
-          "itemName": "minecraft:leather",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemString",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        },
-        {
-          "itemName": "minecraft:wool",
-          "isOreDictionary": false,
-          "isWildcard": true,
-          "damage": 32767,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:leather_boots",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "L L",
-        "L L"
-      ],
-      "ingredients": {
-        "L": {
-          "itemName": "minecraft:leather",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemString",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        },
-        {
-          "itemName": "minecraft:wool",
-          "isOreDictionary": false,
-          "isWildcard": true,
-          "damage": 32767,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "###",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "#",
-        "#",
-        "/"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "#",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "#/",
-        " /"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "/#",
-        "/ "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "###",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
           "damage": 0
         },
         "/": {
@@ -2566,235 +3897,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "#",
-        "#",
-        "/"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "#",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "#/",
-        " /"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "/#",
-        "/ "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:stone_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "##",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "#": {
-          "itemName": "stone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
+          "stackSize": 6,
+          "nbt": null
         }
       ],
       "hideFromNEI": true
@@ -2805,7 +3909,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "III",
@@ -2825,21 +3930,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -2850,7 +3958,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -2871,21 +3980,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 6
+          "stackSize": 6,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -2896,7 +4008,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "III",
@@ -2917,21 +4030,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -2942,7 +4058,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -2962,701 +4079,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "III",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "I",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "I/",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:iron_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:iron_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I ",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "III",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "I",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "I/",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:iron_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:iron_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:iron_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I ",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -3667,7 +4107,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "III",
@@ -3687,21 +4128,24 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "nuggetGold",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -3712,7 +4156,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -3733,21 +4178,24 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "nuggetGold",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 6
+          "stackSize": 6,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -3758,7 +4206,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "III",
@@ -3779,21 +4228,24 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "nuggetGold",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -3804,7 +4256,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I I",
@@ -3824,701 +4277,24 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "nuggetGold",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "III",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "I",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "I/",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "minecraft:gold_ingot",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "minecraft:stick",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:gold_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:gold_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I ",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "III",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 6
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "I",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "I/",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:golden_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "II",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:gold_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " I",
-        "/ "
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:gold_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "I ",
-        " /"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotGold",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -4529,7 +4305,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DDD",
@@ -4549,28 +4326,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -4581,7 +4362,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "D D",
@@ -4602,28 +4384,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 6
+          "stackSize": 6,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -4634,7 +4420,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DDD",
@@ -4655,28 +4442,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -4687,7 +4478,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "D D",
@@ -4707,960 +4499,32 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 3
+          "stackSize": 3,
+          "nbt": null
         },
         {
           "itemName": "betterbeginnings:leather_strip",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "minecraft:wool",
           "isOreDictionary": false,
           "isWildcard": true,
           "damage": 32767,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DDD",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 5
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D",
-        "D",
-        "/"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 5
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "D/",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "/D",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:diamond_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " D",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:diamond_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D ",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "betterbeginnings:leather_strip",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_pickaxe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DDD",
-        " / ",
-        " / "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 5
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_sword",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D",
-        "D",
-        "/"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 5
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_shovel",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D",
-        "/",
-        "/"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "D/",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_axe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "/D",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        " /",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "minecraft:diamond_hoe",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "DD",
-        "/ ",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 1
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:diamond_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        " D",
-        "/ "
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
-        }
-      ],
-      "hideFromNEI": true
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:diamond_knife",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "D ",
-        " /"
-      ],
-      "ingredients": {
-        "D": {
-          "itemName": "gemDiamond",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "dustRedstone",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "minecraft:blaze_powder",
-          "isOreDictionary": false,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 3
-        },
-        {
-          "itemName": "itemStringTough",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 4
+          "stackSize": 3,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5671,7 +4535,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "DID",
@@ -5710,21 +4575,24 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 32
+          "stackSize": 32,
+          "nbt": null
         },
         {
           "itemName": "gemLapis",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 32
+          "stackSize": 32,
+          "nbt": null
         },
         {
           "itemName": "minecraft:blaze_powder",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 16
+          "stackSize": 16,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5735,7 +4603,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "PPP",
@@ -5762,14 +4631,16 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "stickWood",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5780,7 +4651,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "ROR",
@@ -5813,7 +4685,8 @@
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 16
+          "stackSize": 16,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5824,7 +4697,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "NNN",
@@ -5857,14 +4731,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:obsidian",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 1
+          "stackSize": 1,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5875,7 +4751,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "#E#",
@@ -5908,14 +4785,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "nuggetIron",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -5926,7 +4805,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "I#I",
@@ -5959,51 +4839,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         },
         {
           "itemName": "nuggetIron",
           "isOreDictionary": true,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
-        }
-      ],
-      "hideFromNEI": false
-    },
-    {
-      "output": {
-        "itemName": "betterbeginnings:pan",
-        "isOreDictionary": false,
-        "isWildcard": false,
-        "damage": 0,
-        "stackSize": 1
-      },
-      "recipe": [
-        "/  ",
-        " II"
-      ],
-      "ingredients": {
-        "I": {
-          "itemName": "ingotIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        },
-        "/": {
-          "itemName": "stickWood",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0
-        }
-      },
-      "catalysts": [
-        {
-          "itemName": "nuggetIron",
-          "isOreDictionary": true,
-          "isWildcard": false,
-          "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -6014,7 +4859,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 4
+        "stackSize": 4,
+        "nbt": null
       },
       "recipe": [
         "CRC",
@@ -6047,14 +4893,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 8
+          "stackSize": 8,
+          "nbt": null
         },
         {
           "itemName": "minecraft:flint",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 8
+          "stackSize": 8,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -6065,7 +4913,8 @@
         "isOreDictionary": false,
         "isWildcard": false,
         "damage": 0,
-        "stackSize": 1
+        "stackSize": 1,
+        "nbt": null
       },
       "recipe": [
         "WWW",
@@ -6086,14 +4935,16 @@
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 4
+          "stackSize": 4,
+          "nbt": null
         },
         {
           "itemName": "minecraft:stick",
           "isOreDictionary": false,
           "isWildcard": false,
           "damage": 0,
-          "stackSize": 2
+          "stackSize": 2,
+          "nbt": null
         }
       ],
       "hideFromNEI": false
@@ -6101,5 +4952,5 @@
   ],
   "includes": [],
   "modDependencies": [],
-  "version": 2
+  "version": 3
 }
