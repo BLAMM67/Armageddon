@@ -35,6 +35,11 @@ BlockProperty.set(<ompd:hardened:2>, 30.0, 200.0);
 BlockProperty.set(<ompd:hardened:3>, 35.0, 250.0);
 BlockProperty.set(<ompd:hardened:4>, 40.0, 300.0);
 
+//Reduce durability on blocks that are too high
+BlockProperty.set(<immersiveengineering:stoneDecoration:1>, 8.0, 50.0);
+BlockProperty.set(<immersiveengineering:stoneDecoration:2>, 10.0, 75.0);
+
+
 // Need to break ethaxium so lower the harvest level to Dreadium
 HarvestLevel.set(<abyssalcraft:ethaxium>, "pickaxe", 6);
 HarvestLevel.set(<abyssalcraft:ethaxiumbrick:*>, "pickaxe", 6);
