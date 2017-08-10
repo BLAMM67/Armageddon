@@ -32,7 +32,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Rule 9",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You think you can just punch a tree and get some logs? That\u0027s just not gonna happen. You\u0027re gonna need some tools. The first thing to make is a knife. Dig through some gravel and find some flint. Two pieces are all you need."
@@ -77,7 +77,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "And my axe!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Now that you have a knife, you can work on getting an axe. It will just be a flint axe, but it will get the job done.\n\nGet a sapling and use your knife on it to get a stick. Then kill a cow to get some leather, but be careful. Cows, or any animal, aren\u0027t the docile creatures you many be familiar with. They will fight back if you hit them. Cut the leather into strips. Get another flint and make yourself an axe."
@@ -136,7 +136,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Advanced Crafting",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Building things can get complicated. Make two crafting tables and put them side-by-side. The slots on the side will occasionally need to be filled with various extra materials to make something."
@@ -190,7 +190,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Tables with Contents",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "To start making real tools, you\u0027ll need some special tables. Set these four up next to each other and you get a nifty work area."
@@ -272,7 +272,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Patterns",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Some sticks and planks are all you need for these simple patterns. Use the blanks in the stencil table to create the patterns for the tool parts."
@@ -384,7 +384,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pick a Winner",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The next tool you need is a pick. Use the patterns in the parts table, and make sure you have enough materials. Some parts need more than one item. You can use many different materials, but let\u0027s stick to the simple ones for now. A flint pick with a wooden handle and binder. You can upgrade it with parts made of different materials later."
@@ -452,7 +452,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Heating up",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Now that you can mine stone, you can start cooking things. The first item you want is a kiln. It\u0027s main purpose is to bake clay into bricks, logs into charcoal, and cobble into stone. You can also cook meat and fish in it, but the result, while edible, is not very good.\n\nWhat you really want to make tasty treats is an oven. That will roast up your steak and porkchops to a delicious golden brown. If I had a mouth, it would be watering.\n\nFinally, you\u0027ll want a smelter. You can use that to heat up any ore you find into ingots. You\u0027ll need a booster in addition to the ore to smelt it. There are some expensive and rare boosters that can increase the yield, but just use gravel for now."
@@ -512,7 +512,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Muddy Waters",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "In addition to hunger, you need to deal with thirst. At first the best thing to do is make a canteen. Right click it on a water source to fill it. The water will be dirty, but it\u0027s better than nothing."
@@ -559,7 +559,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Charcoal Filters",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Use a glass bottle to get water. It will still be dirty water, but you can improve the quality by filtering it with a charcoal filter. That gets you filtered water, which is better than dirty water. You can also filter the water in a canteen."
@@ -621,7 +621,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Get Juiced",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can mix clean water with a number of different fruits to make juice. The juice is even more refreshing than the water. Try them all!"
@@ -722,7 +722,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Warm enough for ya?",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "So you might have noticed it can get cold at night. It will get even colder in the winter. You can chase off the chill with a campfire. Just place it down, and light it with some sticks. It may take a few to get it going.\n\nBe careful to put it out iof the way. You don\u0027t want to be walking through it."
@@ -769,7 +769,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Wooly Bully",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "When its gets really cold, you\u0027ll want to bundle up. A set of warm clothes should keep you toasty on those chilly winter days."
@@ -834,7 +834,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Jelly Belly",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "When summer comes, you can cool down with some jellied slime armor. It\u0027s a bit sticky, but it\u0027s worth it to stay cool when it\u0027s hot out."
@@ -905,7 +905,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "HVAC",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "These heating and cooling coils can control the temperature of an enclosed space. Just apply a redstone signal to turn them on and off."
@@ -958,7 +958,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Mercury rising",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can keep an eye on the temperature with this fancy thermometer. What will they think of next?"
@@ -1005,7 +1005,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Turn, turn, turn",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Keep track of the changing seasons with this dial. You can be prepared for the coming temperature changes by knowing what\u0027s coming."
@@ -1052,7 +1052,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Look Into the Abyss",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Do not enter the portal until you are well prepared. The abyss is filled with even more horrors than the overworld. Once you are there, you can continue your quest."
@@ -1100,7 +1100,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Klatuu Berada Nicto",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "If you think you\u0027re ready to start your path to ending this nightmare, the first step is to get your hands on a Necronomicon. It\u0027s an ancient tome of dark magic filled with arcane secrets. You\u0027ll have to search in desert tombs to find it. Be careful. It\u0027s probably not unguarded."
@@ -1154,7 +1154,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Key Master",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The gateway key is your ticket to terror and violence. It is also the only way to get to the creature behind the invasion of your world."
@@ -1201,7 +1201,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Corelium Pearl",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Corelium pearls are very important in the magic of the old ones. To get one, craft some corelium infused stone and cook it."
@@ -1257,7 +1257,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Coralium Gems",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "These gems can be mined fro ore found under oceans or swamp biomes. They are quite valuable and you will need a lot of them."
@@ -1307,7 +1307,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Oblivion Catalyst",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The oblivion catalyst is the single most important part of the gateway key. A lot goes into making it, but take your time. You want to get it right."
@@ -1370,7 +1370,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Shadow Gems",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Shadow gems are the result of piecing together smaller shards of shadow."
@@ -1417,7 +1417,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Shadow Gem Shards",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Shadow creatures are some of the horrible mostrosities that have been let loose on this world. You cabn find them in darklands biomes or deep underground. They drop pieces of shadow that you will need, so unfortunately you will need to track them down and kill quite a lot of them."
@@ -1467,7 +1467,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Potential Energy",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The Necronomicon has a lot of information. It might be a bit confusing. You will have to use it as your primary source, but I will try to guide you through it. \nWhat you need to do now is create a ritual alter. It\u0027s simple enough to do, you also have to collect some statues of the old ones to power it. That\u0027s isn\u0027t so simple. You will need to locate a shoggoth\u0027s lair. When enough shoggoths have collected, they erect mighty pillars to worship the old ones. On top of these pillars you will find a statue. bring these staties back to your altar so you can begin collecting the power they emit. The necronomicon has the details for all this."
@@ -1520,7 +1520,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Energy Pedastal",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Energy pedestals are for collecting the energy from the statues. If the pedestal is within 3 blocks of one or more statues, place your Necronomicon, or other object, on the pedestal to charge it with energy."
@@ -1572,7 +1572,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Ritual Charm",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -1637,7 +1637,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Monolith Pillars",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can make small pillars out of the monolithic stone that the shoggoth pillars are made from. They are useful for placaing the old ones statues."
@@ -1687,7 +1687,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Sacrificial Altar",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The sacrificial altar lets you sacrifice animals or monsters for energy. Once a sacrifice has been selected by the altar, it will begin to smoke. Kill it and the altar will collect energy from it."
@@ -1740,7 +1740,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Energy Relay",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Energy relays can be used to transfer energy from where it has been collected to where it will be used. This can be handy since the statues can be dangerous to be around."
@@ -1790,7 +1790,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Sneaksy",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Once you\u0027ve got your ritual altar setup you can use it to create all sorts of useful items. For instance, a pickpocket gauntlet that lets you steal back your items from a soul. It doesn\u0027t always work, and when it doesn\u0027t the soul will attack you, but it can give you a big advantage."
@@ -1844,7 +1844,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Staff of Rending",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -1894,7 +1894,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Essences",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -1953,7 +1953,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Abyssal Wastelands Necronomicon",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2003,7 +2003,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Dreaded Gateway Key",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2054,7 +2054,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Dreadlands",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2099,7 +2099,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Power Stone",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2149,7 +2149,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Eye of the Abyss",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2199,7 +2199,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Powerstone Tracker",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2246,7 +2246,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xFragments and Essense",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2302,7 +2302,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDread Skin",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2352,7 +2352,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDreadnomicon",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2402,7 +2402,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xOmothol",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2447,7 +2447,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xGateway Key",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2494,7 +2494,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDread-plagued Key",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2544,7 +2544,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Transmutator",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2591,7 +2591,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xAltar of Cha\u0027garoth",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2645,7 +2645,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDreadium Ingot",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2693,7 +2693,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDreaded Shards",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2743,7 +2743,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDread Cloth",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2790,7 +2790,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xDread Fragment",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2840,7 +2840,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zFlesh and Essence",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2896,7 +2896,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zSkin of Omathol",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2947,7 +2947,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zOmotholicon",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -2998,7 +2998,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zEssence of the Gatekeeper",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3051,7 +3051,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zAbyssalnomicon",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3103,7 +3103,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zTemple of J\u0027zahar",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3148,7 +3148,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zEldritch Scale",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3198,7 +3198,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zEthaxium Ingots",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3245,7 +3245,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "zLife Crystal",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3292,7 +3292,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Brewing Stand",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3339,7 +3339,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xCrystalizer",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3386,7 +3386,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xCrystal Shards",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3433,7 +3433,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "xCrystalized Elements",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3480,7 +3480,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Awkward Potion",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3533,7 +3533,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Buff Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3667,7 +3667,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Debuff Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3744,7 +3744,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Thick Potion",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3803,7 +3803,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Splash",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3853,7 +3853,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Lingering",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3906,7 +3906,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Abyssal Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -3977,7 +3977,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Extra Alchemy",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4093,7 +4093,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Extra Thicc Alchemy",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4164,7 +4164,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Charged Potion",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4226,7 +4226,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Charged Up Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4286,7 +4286,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Into the Nether",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4329,7 +4329,7 @@
           "globalShare": false,
           "questLogic": "OR",
           "name": "Mundane Potion",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4391,7 +4391,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Extra Mundane Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4462,7 +4462,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Temperature Control",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4524,7 +4524,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Sinking",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4577,7 +4577,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Give and Take",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4639,7 +4639,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Fast Travel",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4713,7 +4713,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Combining Potions",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4778,7 +4778,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Vials",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4834,7 +4834,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Potentia Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4883,7 +4883,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Resistance Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4935,7 +4935,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Invisibility Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -4987,7 +4987,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Night Vision Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5039,7 +5039,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Luck Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5091,7 +5091,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Speed Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5143,7 +5143,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Water Breathing Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5195,7 +5195,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Jump Boost Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5247,7 +5247,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Absorbtion Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5299,7 +5299,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Fire Resistance Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5351,7 +5351,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Haste Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5403,7 +5403,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Regeneration Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5455,7 +5455,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Strength Gem",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -5511,7 +5511,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Twisty Passages",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "There\u0027s a unusual creature that you need to be careful of. It\u0027s called a grue, and it hunts in the darkest of dark places. If you ever find yourself in a place that is completely unlit, the grue will appear to kill you. You can\u0027t fight it with anything except light. Just stay in the light and you will be safe."
@@ -5604,7 +5604,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Souls",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "When you die, you leave behind the ghost of your former self. If you kill your soul, you can retrieve all the items you were carrying. Be careful though, the soul will equip the armour and weapons you were carrying when you died, so it could be hard to take down."
@@ -5705,7 +5705,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "RTFM",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Flint tools will only get you so far. To make the kind of tools the professionals use, you\u0027ll need a smeltery. There\u0027s a book that is full of information on what the smeltery can do as well as a lont of other reference material, so its important that you have one. I\u0027m going to guide you through the basics, but you will want to read §oMaterials and You§o §o§rto get an understand of everything you can do. "
@@ -5759,7 +5759,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "I am Grout!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You get started by collecting a truck-load of gravel, clay, and sand. With this you can make grout. Cook the grout in the kiln to make seared bricks. These are literally the basic building block for most of what you will need."
@@ -5815,7 +5815,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Just A Big Melting Pot",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You\u0027ll need a number of items to build the smeltery so cook up a lot of those seared bricks. §o§rIf you are unfamiliar with the structure of a smeltery, refer to §r§oMaterials and You§r. It has a detailed instructions on building the structure."
@@ -5901,7 +5901,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "A Cast of One",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "After the smeltery is complete, you will need a cast for each tool part that you want to make. A clay cast is the quickest and easiest way. Start with a stone part and pour molten clay over the part. You will get a cast of that part, though the original will be destroyed."
@@ -5957,7 +5957,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Hot Brass",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Clay casts are fine, but something more durable would be better. Try making a cast from gold or aluminum brass. It won\u0027t be lost when casting a part."
@@ -6051,7 +6051,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Ironman",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Your first real tool! Iron is much more durable than flint, and it has the ability to mine harder ores like diamond and gold. You don\u0027t even need to make a whole new pick. Just upgrade the one you\u0027ve been using."
@@ -6107,7 +6107,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Steely Dan",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You\u0027ll want to keep increasing the strength of your tool. After iron, upgrade it to steel. It\u0027s a lot more involved to make, but you can\u0027t argue with the results."
@@ -6163,7 +6163,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Coral",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You\u0027ll find a corelium ore embedded in the stone of the Abyssal Wasteland. It\u0027s a bit tougher than the stuff you find in the Overworld. With it you can create a Refined Coralium metal that is even better than steel. "
@@ -6219,7 +6219,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Manny Who?",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The nether has some ore that are really strong. Both cobal and ardite are excellent metals on their own, but combine them into the alloy manyullen, and they make a material that is almost unbeatable in strength and durability."
@@ -6275,7 +6275,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Judge Dread",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "This material is the hardest of all. You only require it for a single task, but there is no substitue."
@@ -6369,7 +6369,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "En Garde!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Bet you\u0027re tired of fighting off zombies and skeletons with your fists. Well, stop. It\u0027s time to get a real weapon. Start with a basic broadsword. Then review §oMaterials and You§r to see what your options are. You\u0027re sure to find something that fits your fighting style."
@@ -6472,7 +6472,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "En Garde!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Now that you can make tools, one of the most important items you\u0027ll need is a weapon. There are several options, but the tried and true broadsword is always a good choice. Arm up and give those monsters what for!"
@@ -6552,7 +6552,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Super Tank!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The Tinker\u0027s Tank can hold tremendous amounts of liquid, including molten metals. It\u0027s an efficient way to store all your metal."
@@ -6599,7 +6599,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Super Cooker!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can build an extra large furnace so you can cook up large amounts of items all at the same time. Reference §oMaterials and You§o §rto get the full details for construction."
@@ -6646,7 +6646,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Bunker Blocks",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Reinforced concrete is a good start. Now you can make a hardened block That is even more durable. Start making a bunch of this because you\u0027ll need it to make your unassailable fortress."
@@ -6693,7 +6693,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Immovable Objects",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "There is a hierarchy of hardened blocks, each one tougher and steonger than the previous. You can reinforce each level of hardened block until its becomes virtually impossible to destroy."
@@ -6758,7 +6758,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Corner Stones",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -6805,7 +6805,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Nigh-Invulnerable",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -6852,7 +6852,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Immovable Object",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -6884,7 +6884,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "High Walls",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Stone walls keep things out, but don\u0027t last when creepers are roaming. Luckily, you can make hardened walls that will stand up to the punishment."
@@ -6955,7 +6955,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7002,7 +7002,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7049,7 +7049,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7096,7 +7096,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7143,7 +7143,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Making Good Neighbors",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The hardened blocks are great for building a bunker, but they can be a bit expensive and sometimes you just want to fence off an area, not completely enclose it. The hardened fences are nearly as tough as the blocks but they are cheaper to make."
@@ -7214,7 +7214,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7246,7 +7246,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7278,7 +7278,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7310,7 +7310,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -7342,7 +7342,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Best Defense",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "They say that the best defense is a good offense. But there\u0027s something to be said for a really good defense too. Automated turrets are a great defense. They start simple but become increasingly more deadly."
@@ -7389,7 +7389,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Ready! Aim! Fire!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Heavier guns need a heavier base."
@@ -7436,7 +7436,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "2nd Amendment",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "There\u0027s still room for improvment. Every upgrade opens new posibilities."
@@ -7483,7 +7483,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Dey Shootin\u0027!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Heavy duty stuff coming up. Upgrade the turrets for access to them."
@@ -7530,7 +7530,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "First Strike Capability",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Last time. I promise."
@@ -7577,7 +7577,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Addons",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "There are a few addtions you can add to turrets to enhance their capabilities. You can only add two of them, so consider carefully which ones you use."
@@ -7660,7 +7660,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pea Shooters",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The simplest turrets can use almost anything as ammo. they don\u0027t do a lot of damage, but you can keep them running for cheap."
@@ -7713,7 +7713,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Popguns",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "If you\u0027re done throwing trash at the enemy, make some real slug throwers. Or if hot lead isn\u0027t good enough, just send the heat."
@@ -7778,7 +7778,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pineapples",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Getting into the interesting weapons now. Chuck grenades at the enemy with the grenade launcher or slow them down with the relativistic turret."
@@ -7837,7 +7837,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Rockets Red Glare",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Rockets, baby! Rockets!\n\nAnd a teleporter turret that transports mobs to on top of it. Crazy!"
@@ -7896,7 +7896,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pew! Pew! Pew!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Lasers and rail guns. This is the top tier. The enemy won\u0027t know what hit them."
@@ -7955,7 +7955,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Upgrades",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Turrent not firing fast enough for you? Not doing enough damage? Range is too short? Just upgrade it."
@@ -8026,7 +8026,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "I made it out of clay!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -8077,7 +8077,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Pointy!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -8134,7 +8134,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Feeling Lucky, Punk?",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You have the right to bear arms. I suggest you bear as many as you can."
@@ -8188,7 +8188,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Round and Round",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The revolver is a very flexible weapon. There is a specialized round for almost any task. Assuming that task has something to do with killing things. Review the Engineer\u0027s manual for the effect of each of these rounds and how to make them."
@@ -8301,7 +8301,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Accessorizing!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can upgrade the revolver with various modules. Check the Engineer\u0027s Manual for more details."
@@ -8366,7 +8366,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "BFG9000",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "A big gun for a big job. this gun is the biggest. It fires rods of steel at high velocities. It can go right through the biggest monsters."
@@ -8426,7 +8426,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Don\u0027t Cross the Streams",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The chemical thrower lets you spray various liquids, like lava, water, ethenol, and others. Hose down your foes with flaming liquid death!"
@@ -8486,7 +8486,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Exterminate!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "No Description"
@@ -8533,7 +8533,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Exterminate!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "These turrets need a bit of power, but they can cover a wide area with automatic fire. Just the thing for your personal home defense system."
@@ -8587,7 +8587,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Not for Shoes",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You probably have a base of some sort. If you haven\u0027t already realized it, it won\u0027t be safe for long. The monsters will eventually get in. Fortunately, there are some building materials that will stand up to the assault. You may be tempted to use obsidian, but let me assue you the strengths of obsidian have been greatly exaggerated. You know its basically glass, right?\n\nThere are much stronger building materials. Concrete, for instance. It\u0027s harder than stone and can resist explosions better. It\u0027s even stronger if you reinforce it with a bit of lead."
@@ -8640,7 +8640,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "RTFM 2",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You may not be an engineer, but you\u0027re gonna have to learn. Luckily, I know how you can get an §oEngineer\u0027s Manual§r. I\u0027ll guide you through the basics, but you are gonna have to get used to reading that book. It\u0027s got a lot more in it than I can teach you."
@@ -8687,7 +8687,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Tools of the Trade",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "When working with machines you need the right tools for the right job. The hammer and wire cutters are the most basic, but also the most important."
@@ -8740,7 +8740,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Not That Kind of Hemp",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "I\u0027m sure you know that hemp is an extremely useful material. What you may not know is that you are going to need a whole lot of it. You\u0027ve probably already gathered more than a few hemp seeds. If you plant them in garden, you can reap hemp fiber, which will be very useful for making rope and cloth."
@@ -8796,7 +8796,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Not That Kind of Coke",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Coal coke is a special kind of fuel you will need to starting making steel. You make coal coke by putting coal or logs into a coke oven, so you need to make the coke oven. Read the §oEngineer\u0027s Manual§r for more details, but I can tell you, you will need 27 coke bricks placed in a cube. Then you whack the front with the hammer."
@@ -8843,7 +8843,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Have a Blast!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can start making steel with a crude blast furnace. Again, you should refer to the §oEngineer\u0027s Manual§r for more information, but just as with the coke oven you will need 27 blocks placed in a cube to make the furnace. Prepare your floor plans appropriately."
@@ -8890,7 +8890,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Treat Me Right",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "In addition to coal coke, the coke oven produce creosote oil. You use the creosote oil to treat wood so that it lasts longer. You will probably end up with more oil than you can use at first, so find a way to store it."
@@ -8950,7 +8950,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Steel Away",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Steel is stronger and more durable than iron. You are gonna find that there are materials that can hold an edge better and work well as armor, but those materials simply aren\u0027t suited for structural work. Only steel works for machinery, so start making it as fast as you can because there are a lot of machines you will need later."
@@ -9000,7 +9000,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Wired",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "If you haven\u0027t already found copper, you better start looking because you will need a lot of it. It\u0027s one of the best conductors of electricty, so you are going to need it to start your power base. Get it? \"Power\" base? Electricty? Nevermind."
@@ -9059,7 +9059,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "I AM THE POWER!",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The kinetic dynamo is the backbone of your power grid. You can hook it up to a number of different machines to turn kinetic energy into RF. Refer to the  §oEngineer\u0027s Manual§r for information on generating power."
@@ -9112,7 +9112,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Rollin\u0027 on the River",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The water wheel is one way to generate power. It\u0027s big so make sure you have enough room before you place it. A kinetic dynamo needs to be placed next to it at its center to generate power. A single dynamo can handle three water wheels side-by-side."
@@ -9161,7 +9161,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "New Quest",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The windmill is another method of cranking the kinetic dynamo. You can make a basic windmill, but honestly it\u0027s much better to just skip to the improved version."
@@ -9211,7 +9211,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Point-to-point",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The connectors let you hang wires so you can transfer the power you generate to the machines that need them. Once you\u0027ve placed your connectors, right-click with a wire on one and then on a second ome to connect them with a wire."
@@ -9258,7 +9258,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "A Story of Ice and Fire",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "The thermoelectric generator creates power from the temperature differences between two different extremes. You will need to place lava and ice on opposite sides of the generator. If you do this on all four sides, the power output increases. You can use ice, but it will probably be difficult to keep it from melting, so packed ice is probably your best bet."
@@ -9306,7 +9306,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Max Capacity",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Once you start creating and using power, it\u0027s a good idea to have a few capacitors as buffers. It\u0027s a tough balancing act to get the supply and the demand equal, so capacitors let you store up extra power for the times when you need a little extra oomph."
@@ -9356,7 +9356,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Clean and Clear",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Of course, clean water is even more refreshing than filtered water, but it\u0027s a bit more difficult to get. The lazy way is to make a rain collector and just wait. After a few rainstorms, the collector will be full, and you can fill bottles and canteens from it.\n\nBut what you really want to do is boil your filtered water to make clean water. You\u0027ll need a big furnace. The kiln, oven, and smelter just aren\u0027t right for the job. Once you\u0027ve built a Tinkers furnace, you can heat bottles of filtered water in that to get as much clean, fresh water as you want."
@@ -9415,7 +9415,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Big Pockets",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You\u0027re probably getting encumbered by lots of items and materials. You can make a chest once you\u0027ve gotten some iron, but you\u0027re gonna want something to help you carry everything around before then. A small backpack will help relieve the burden. Once you\u0027ve gotten access to better materials you can make even bigger packs."
@@ -9468,7 +9468,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Portable Hole",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "You can upgrade your backpack with one that\u0027s a bit bigger with some treated wood, stone rods, and some tough fabric."
@@ -9541,7 +9541,7 @@
           "globalShare": false,
           "questLogic": "AND",
           "name": "Handy Haversack",
-          "lockedProgress": false,
+          "lockedProgress": true,
           "autoClaim": false,
           "isSilent": false,
           "desc": "Your final backpack upgrade requires steel, so be patient. It\u0027s worth the wait to be able to haul around a ton of equipment."
