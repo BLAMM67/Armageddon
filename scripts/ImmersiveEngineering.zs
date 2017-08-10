@@ -2,6 +2,7 @@ import mods.betterbeginnings.AdvancedCrafting;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Squeezer;
 import mods.tconstruct.Casting;
+import mods.tconstruct.Smeltery;
 
 //http://minetweaker3.powerofbytes.com/wiki/Mods:Immersive_Engineering_Support
 print("*** Tweaking Immersive Engineering ***");
@@ -10,6 +11,12 @@ print("*** Tweaking Immersive Engineering ***");
 // Add beet seeds to squeezer
 Squeezer.addRecipe(null, <liquid:plantoil> * 80, <minecraft:beetroot_seeds>, 240);
 
+// Make concrete in the smeltery
+Smeltery.addAlloy(<liquid:concrete> * 1000, 
+[<liquid:glass> * 2000, <liquid:stone> * 72, <liquid:clay> * 144, <liquid:water> * 500]);
+
+// Cast concrete blocks
+Casting.addBasinRecipe(<immersiveengineering:stoneDecoration:5>, <liquid:concrete> * 125, null, true, 40);
 
 // Reduce cost of leaded concrete
 recipes.remove(<immersiveengineering:stoneDecoration:7>);
@@ -18,6 +25,8 @@ recipes.addShaped(<immersiveengineering:stoneDecoration:7> * 8, [
 	[<ore:concrete>, <ore:dustLead>, <ore:concrete>], 
 	[<ore:concrete>, <ore:concrete>, <ore:concrete>]
 ]);
+
+
 
 // Update the Bayonet with a tinkers knife blade instead of a vanilla iron sword
 recipes.remove(<immersiveengineering:toolupgrade:4>);

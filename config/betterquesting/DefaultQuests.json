@@ -18,7 +18,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -63,7 +63,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -122,7 +122,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -169,7 +169,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -255,7 +255,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -329,7 +329,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -438,7 +438,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -498,7 +498,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -545,7 +545,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -607,7 +607,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -708,7 +708,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -755,7 +755,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -820,7 +820,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -891,7 +891,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -944,7 +944,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -991,7 +991,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1038,7 +1038,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1083,7 +1083,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1140,7 +1140,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1187,7 +1187,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1243,7 +1243,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1293,7 +1293,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1356,7 +1356,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1403,7 +1403,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1453,7 +1453,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1503,7 +1503,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1558,7 +1558,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1623,7 +1623,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1670,7 +1670,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1723,7 +1723,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1776,7 +1776,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -1827,7 +1827,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1880,7 +1880,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1936,7 +1936,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -1989,7 +1989,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2040,7 +2040,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2085,7 +2085,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2135,7 +2135,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2185,7 +2185,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2232,7 +2232,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2288,7 +2288,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2335,7 +2335,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2388,7 +2388,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2433,7 +2433,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2480,7 +2480,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2530,7 +2530,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -2577,7 +2577,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2631,7 +2631,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2679,7 +2679,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2729,7 +2729,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2776,7 +2776,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2826,7 +2826,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2882,7 +2882,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2929,7 +2929,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -2984,7 +2984,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3034,7 +3034,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3089,7 +3089,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3134,7 +3134,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3184,7 +3184,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3231,7 +3231,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": true,
           "simultaneous": false,
           "icon": {
@@ -3278,7 +3278,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3325,7 +3325,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3372,7 +3372,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3419,7 +3419,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3466,7 +3466,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3516,7 +3516,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3650,7 +3650,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3730,7 +3730,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3789,7 +3789,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3839,7 +3839,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3889,7 +3889,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -3960,7 +3960,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4076,7 +4076,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4147,7 +4147,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4209,7 +4209,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4271,7 +4271,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
@@ -4315,7 +4315,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4374,7 +4374,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4445,7 +4445,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4507,7 +4507,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4560,7 +4560,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4622,7 +4622,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4684,7 +4684,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4761,7 +4761,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4820,7 +4820,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4868,7 +4868,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4920,7 +4920,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -4972,7 +4972,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5024,7 +5024,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5076,7 +5076,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5128,7 +5128,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5180,7 +5180,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5232,7 +5232,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5284,7 +5284,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5336,7 +5336,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5388,7 +5388,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5440,7 +5440,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5492,7 +5492,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5590,7 +5590,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5684,7 +5684,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5745,7 +5745,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5801,7 +5801,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5884,7 +5884,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5940,7 +5940,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5996,7 +5996,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6090,7 +6090,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6146,7 +6146,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6202,7 +6202,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6258,7 +6258,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6314,7 +6314,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6417,7 +6417,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6538,7 +6538,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6585,7 +6585,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6632,7 +6632,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6679,7 +6679,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6744,7 +6744,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6791,7 +6791,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6838,7 +6838,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6870,7 +6870,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6941,7 +6941,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6988,7 +6988,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7035,7 +7035,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7082,7 +7082,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7129,7 +7129,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7200,7 +7200,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7232,7 +7232,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7264,7 +7264,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7296,7 +7296,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7328,7 +7328,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7375,7 +7375,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7422,7 +7422,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7469,7 +7469,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7516,7 +7516,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7563,7 +7563,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7646,7 +7646,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7699,7 +7699,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7764,7 +7764,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7823,7 +7823,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7882,7 +7882,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -7941,7 +7941,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8012,7 +8012,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8063,7 +8063,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8116,7 +8116,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8171,7 +8171,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8287,7 +8287,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8352,7 +8352,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8412,7 +8412,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8472,7 +8472,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8519,7 +8519,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8573,7 +8573,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8626,7 +8626,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8673,7 +8673,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8726,7 +8726,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8782,7 +8782,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8829,7 +8829,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8876,7 +8876,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8936,7 +8936,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -8986,7 +8986,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9045,7 +9045,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9098,7 +9098,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9147,7 +9147,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9197,7 +9197,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9244,7 +9244,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9292,7 +9292,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9339,7 +9339,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9401,7 +9401,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9454,7 +9454,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -9527,7 +9527,7 @@
         "betterquesting": {
           "snd_complete": "minecraft:entity.player.levelup",
           "taskLogic": "AND",
-          "partySingleReward": false,
+          "partySingleReward": true,
           "isMain": false,
           "simultaneous": false,
           "icon": {

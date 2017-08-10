@@ -17,28 +17,8 @@ val dreadium = 6;
 <material:refined_coralium>.harvestLevelHead = cobalt;
 <material:manyullyn>.harvestLevelHead = corelium;
 
-//HarvestLevel.set(<ompd:hardened:0>, "pickaxe", diamond);
-//HarvestLevel.set(<ompd:hardened:1>, "pickaxe", obsidian);
-//HarvestLevel.set(<ompd:hardened:2>, "pickaxe", cobalt);
-//HarvestLevel.set(<ompd:hardened:3>, "pickaxe", corelium);
-//HarvestLevel.set(<ompd:hardened:4>, "pickaxe", dreadium);
-
 // Nerf obsidian so the hardened blocks are the building material of choice
 BlockProperty.set(<minecraft:obsidian>, 6.0, 35.0);
-
-// Set the hardened block chain to increase durability gradually
-BlockProperty.set(<immersiveengineering:stoneDecoration:5>, 8.0, 50.0);
-BlockProperty.set(<immersiveengineering:stoneDecoration:7>, 10.0, 75.0);
-BlockProperty.set(<ompd:hardened>, 20.0, 100.0);
-BlockProperty.set(<ompd:hardened:1>, 25.0, 150.0);
-BlockProperty.set(<ompd:hardened:2>, 30.0, 200.0);
-BlockProperty.set(<ompd:hardened:3>, 35.0, 250.0);
-BlockProperty.set(<ompd:hardened:4>, 40.0, 300.0);
-
-//Reduce durability on blocks that are too high
-BlockProperty.set(<immersiveengineering:stoneDecoration:1>, 8.0, 50.0);
-BlockProperty.set(<immersiveengineering:stoneDecoration:2>, 10.0, 75.0);
-
 
 // Need to break ethaxium so lower the harvest level to Dreadium
 HarvestLevel.set(<abyssalcraft:ethaxium>, "pickaxe", 6);

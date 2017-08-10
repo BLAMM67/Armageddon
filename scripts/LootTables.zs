@@ -31,3 +31,9 @@ val orangeSlimeballPool = magmaCubeTable.addPool("slimeball", 0, 1, 0, 0);
 val orangeSlimeBall = <tconstruct:edible:4>;
 orangeSlimeballPool.addItemEntry(orangeSlimeBall, 1);
 
+// Add biotite drop to endermen
+val endermenTable = LootTables.getTable("minecraft:entities/enderman");
+val biotitePool = endermenTable.addPool("biotite", 0, 1, 0, 0);
+val biotite = <quark:biotite>;
+biotitePool.addItemEntry(biotite, 1);
+

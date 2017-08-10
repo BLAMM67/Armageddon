@@ -58,6 +58,8 @@ AdvancedCrafting.addRecipe(<tconstruct:stone_ladder> * 3,[
 	[<ore:rodStone>, null, <ore:rodStone>]],
 	[<immersiveengineering:wirecoil:3>]);
 
+// Gravel can be melted too
+Smeltery.addMelting(<liquid:stone> * 72, <minecraft:gravel>, 200);
 
 // Let's make a use for the vanilla tools
 Smeltery.addMelting(<liquid:iron> * 144, <minecraft:iron_axe>, 200);
