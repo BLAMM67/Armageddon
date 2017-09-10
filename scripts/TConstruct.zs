@@ -58,6 +58,9 @@ AdvancedCrafting.addRecipe(<tconstruct:stone_ladder> * 3,[
 	[<ore:rodStone>, null, <ore:rodStone>]],
 	[<immersiveengineering:wirecoil:3>]);
 
+// Casts can be melted
+Smeltery.addMelting(<liquid:alubrass> * 144, <ore:cast>, 200);
+
 // Gravel can be melted too
 Smeltery.addMelting(<liquid:stone> * 72, <minecraft:gravel>, 200);
 
