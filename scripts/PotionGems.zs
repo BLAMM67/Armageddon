@@ -134,9 +134,9 @@ mods.abyssalcraft.InfusionRitual.addRitual("gem_jump_boost",
 	<minecraft:potion>.withTag({Potion: "minecraft:leaping"}), 
 	<minecraft:rabbit_foot>]);
 
-recipes.remove(<ytgems:gem_jump_boost>);
-mods.abyssalcraft.InfusionRitual.addRitual("gem_jump_boost", 
-	bookType, dimension, requiredEnergy, false, <ytgems:gem_jump_boost>, potentiaGem,
+recipes.remove(<ytgems:gem_luck>);
+mods.abyssalcraft.InfusionRitual.addRitual("gem_luck", 
+	bookType, dimension, requiredEnergy, false, <ytgems:gem_luck>, potentiaGem,
 	[<abyssalcraft:crystalcluster:10>, 
 	<ore:gemLapis>, 
 	<minecraft:potion>.withTag({Potion: "minecraft:leaping"}), 
