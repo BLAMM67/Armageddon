@@ -59,8 +59,8 @@ recipes.addShaped(<immersiveengineering:bullet:1>, [
 	[<minecraft:paper>, <ore:dyeRed>, <minecraft:paper>], 
 	[null, <ore:ingotAlubrass>, null]]);
 
-MetalPress.removeRecipe(<immersiveengineering:bullet> * 2); // THIS DOESN"T WORK
-MetalPress.addRecipe(<immersiveengineering:bullet> * 2, <ore:ingotAlubrass>, <immersiveengineering:mold:3>, 500, 1);
+//MetalPress.removeRecipe(<immersiveengineering:bullet> * 2); // THIS DOESN"T WORK
+//MetalPress.addRecipe(<immersiveengineering:bullet> * 2, <ore:ingotAlubrass>, <immersiveengineering:mold:3>, 500, 1);
 
 
 // Reduce output of the metal rod recipies to encourage the use of the Metal Press
