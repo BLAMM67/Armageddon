@@ -8,6 +8,14 @@ vanilla.seeds.addSeed(<minecraft:beetroot_seeds>.weight(5));
 // Someone is adding a 4 gravel recipe for flint. Drop it.
 recipes.removeShaped(<minecraft:flint>);
 
+// Vanilla slime blocks should only be made with vanilla slime balls
+recipes.removeShaped(<minecraft:slime>);
+recipes.addShaped(<minecraft:slime>, [
+	[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+	[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+	[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>] 
+]);
+
 //Drop durability on all vanilla tools in case players get access to one
 mods.vanilla.Durability.set(<minecraft:wooden_axe>, 1);
 mods.vanilla.Durability.set(<minecraft:wooden_hoe>, 1);
