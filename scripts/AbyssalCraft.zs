@@ -15,6 +15,13 @@ oreStatue.add(<abyssalcraft:nyarlathotepstatue>);
 oreStatue.add(<abyssalcraft:yogsothothstatue>);
 oreStatue.add(<abyssalcraft:shubniggurathstatue>);
 
+// Add extra washcloth recipe
+recipes.remove(<abyssalcraft:cloth>);
+recipes.addShaped(<abyssalcraft:cloth>, [
+	[<ore:fabricHemp>, <ore:fabricHemp>], 
+	[<ore:fabricHemp>, <ore:fabricHemp>]
+]);
+
 // Add a ritual to create the Souls gauntlet
 // mods.abyssalcraft.EnchantmentRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <remnantHelp>, <enchantment>, [offerings], nbt*)
 var bookType = 0;         //(0 = Normal, 1 = Abyssal Wasteland, 2 = Dreadlands, 3 = Omothol and 4 = Abyssalnomicon)
