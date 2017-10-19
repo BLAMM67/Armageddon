@@ -207,3 +207,21 @@ AdvancedCrafting.addRecipe(<minecraft:chainmail_boots>,[
 	[<betterbeginnings:chain>, null, <betterbeginnings:chain>],
 	[<betterbeginnings:chain>, null, <betterbeginnings:chain>]],
 	[<ore:nuggetIron> * 3, <betterbeginnings:leather_strip> * 2, <minecraft:wool:*> * 3]);
+
+// More metal buckets
+recipes.addShaped(<minecraft:bucket>, [
+	[<ore:ingotTin>, null, <ore:ingotTin>], 
+	[null, <ore:ingotTin>, null]
+]);
+recipes.addShaped(<minecraft:bucket>, [
+	[<ore:ingotCopper>, null, <ore:ingotCopper>], 
+	[null, <ore:ingotCopper>, null]
+]);
+recipes.addShaped(<minecraft:bucket>, [
+	[<ore:ingotAluminum>, null, <ore:ingotAluminum>], 
+	[null, <ore:ingotAluminum>, null]
+]);
+recipes.addShaped(<minecraft:bucket>, [
+	[<ore:ingotSteel>, null, <ore:ingotSteel>], 
+	[null, <ore:ingotSteel>, null]
+]);
