@@ -1,4 +1,5 @@
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
@@ -91,3 +92,7 @@ Smeltery.addMelting(<liquid:gold> * 16, <minecraft:golden_sword:1>, 200);
 
 // Making spaghetti
 MetalPress.addRecipe(<tconstruct:spaghetti>, <ore:cropWheat>, <immersiveengineering:mold:2>, 500, 16);
+
+// Crusher recipes for cobalt and ardite
+Crusher.addRecipe(<tconstruct:shard>.withTag({Material: "cobalt"}) * 4, <tconstruct:ore>, 8000);
+Crusher.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4, <tconstruct:ore:1>, 8000);
