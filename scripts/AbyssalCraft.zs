@@ -15,6 +15,13 @@ oreStatue.add(<abyssalcraft:nyarlathotepstatue>);
 oreStatue.add(<abyssalcraft:yogsothothstatue>);
 oreStatue.add(<abyssalcraft:shubniggurathstatue>);
 
+// Add an extra shadow gem recipe
+recipes.addShaped(<abyssalcraft:shadowgem>, [
+	[null, <abyssalcraft:shadowshard>, null],
+	[<abyssalcraft:shadowshard>, <minecraft:diamond>, <abyssalcraft:shadowshard>],
+	[null, <abyssalcraft:shadowshard>, null]
+]);
+
 // Add extra washcloth recipe
 recipes.remove(<abyssalcraft:cloth>);
 recipes.addShaped(<abyssalcraft:cloth>, [
