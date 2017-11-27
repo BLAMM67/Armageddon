@@ -62,7 +62,7 @@ Smelter.addRecipe(<minecraft:iron_ingot>, <immersiveengineering:metal:18>);
 // Don't need or want this
 recipes.remove(<betterbeginnings:noob_wood_sword>);
 
-mods.jei.JEI.hide(<betterbeginnings:campfire>); //THIS DOESN'T WORK!
+//mods.jei.JEI.hide(<betterbeginnings:campfire>); //THIS DOESN'T WORK!
 
 /*
 val potion = <minecraft:potion>;
