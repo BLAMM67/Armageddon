@@ -1,4 +1,5 @@
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.immersiveengineering.Crusher;
 
 print("*** Tweaking Vanilla ***");
 
@@ -170,16 +171,19 @@ furnace.remove(<minecraft:iron_ingot>);
 
 // Lets make a use for diamond tools since a few mobs drop them
 // Crusher: OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_shovel>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_pickaxe>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_axe>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_hoe>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_sword>, 8000);
+Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_shovel>, 8000);
+Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_pickaxe>, 8000);
+Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_axe>, 8000);
+Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_hoe>, 8000);
+Crusher.addRecipe(<minecraft:diamond>, <minecraft:diamond_sword>, 8000);
 
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_helmet>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_chestplate>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_leggings>, 8000);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_boots>, 8000);
+Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_helmet>, 8000);
+Crusher.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_chestplate>, 8000);
+Crusher.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_leggings>, 8000);
+Crusher.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_boots>, 8000);
+
+// Extra crusher recipes
+Crusher.addRecipe(<minecraft:leather> * 2, <minecraft:saddle>, 4000);
 
 // Add an advanced recipe for chain armor
 recipes.remove(<minecraft:chainmail_helmet>);
