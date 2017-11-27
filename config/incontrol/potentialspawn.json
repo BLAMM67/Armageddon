@@ -23,7 +23,20 @@
       }
     ]
   },
-  {
+   {
+    "biome": ["Darklands","Darklands Forest", "Darklands Plains", "Darklands Highland", "Darklands Mountains"],
+    "maxcount": "1,abyssalcraft.shadowcreature",
+    "maxlight": 16,
+    "mobs": [
+      {
+        "mob": "abyssalcraft.shadowcreature",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+ {
     "dimension": 0,
     "biome": ["Desert","DesertHills"],
     "mobs": [
