@@ -1,5 +1,7 @@
 import mods.abyssalcraft.necronomicon.internal;
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.tconstruct.Casting;
+import mods.tconstruct.Smeltery;
 
 // AbyssalCraft Integration
 // https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods
@@ -360,3 +362,17 @@ mods.abyssalcraft.necronomicon.internal.addImagePage(5, "armageddon:textures/bla
 mods.abyssalcraft.necronomicon.internal.addImagePage(7, "armageddon:textures/coin.png", 
 	"A Coin is crafted by putting an iron ingot through a metal press with a pan cast.", 
 	"specialmaterials", "omothol");
+
+// Melt coralium gems into liquid coralium
+Smeltery.addMelting(<liquid:liquidcoralium> * 16, <abyssalcraft:coralium>, 20);
+Smeltery.addMelting(<liquid:liquidcoralium> * 32, <abyssalcraft:ccluster2>, 40);
+Smeltery.addMelting(<liquid:liquidcoralium> * 48, <abyssalcraft:ccluster3>, 60);
+Smeltery.addMelting(<liquid:liquidcoralium> * 64, <abyssalcraft:ccluster4>, 80);
+Smeltery.addMelting(<liquid:liquidcoralium> * 80, <abyssalcraft:ccluster5>, 100);
+Smeltery.addMelting(<liquid:liquidcoralium> * 96, <abyssalcraft:ccluster6>, 120);
+Smeltery.addMelting(<liquid:liquidcoralium> * 112, <abyssalcraft:ccluster7>, 140);
+Smeltery.addMelting(<liquid:liquidcoralium> * 128, <abyssalcraft:ccluster8>, 160);
+Smeltery.addMelting(<liquid:liquidcoralium> * 144, <abyssalcraft:ccluster9>, 180);
+
+// Cast an ender pearl from liquid coralium
+Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:liquidcoralium> * 144, <minecraft:diamond>, true, 40);
