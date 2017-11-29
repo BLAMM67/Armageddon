@@ -37,3 +37,8 @@ val biotitePool = endermenTable.addPool("biotite", 0, 1, 0, 0);
 val biotite = <quark:biotite>;
 biotitePool.addItemEntry(biotite, 1);
 
+// Add coralium pearl drop to spectral dragon
+val spectralDragonTable = LootTables.getTable("abyssalcraft:entities/spectral_dragon");
+val cpearlPool = spectralDragonTable.addPool("cpearl", 0, 1, 0, 0);
+val cpearl = <abyssalcraft:cpearl>;
+cpearlPool.addItemEntry(cpearl, 1);
