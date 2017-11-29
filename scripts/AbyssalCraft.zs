@@ -363,6 +363,9 @@ mods.abyssalcraft.necronomicon.internal.addImagePage(7, "armageddon:textures/coi
 	"A Coin is crafted by putting an iron ingot through a metal press with a pan cast.", 
 	"specialmaterials", "omothol");
 
+// Cook coralium plagued flesh into rotten flesh
+furnace.addRecipe(<minecraft:rotten_flesh>, <abyssalcraft:corflesh>);
+
 // Melt coralium plagued flesh into liquid coralium
 Smeltery.addMelting(<liquid:liquidcoralium> * 5, <abyssalcraft:corflesh>, 80);
 
