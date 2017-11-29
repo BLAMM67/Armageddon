@@ -367,4 +367,4 @@ mods.abyssalcraft.necronomicon.internal.addImagePage(7, "armageddon:textures/coi
 Smeltery.addMelting(<liquid:liquidcoralium> * 5, <abyssalcraft:corflesh>, 80);
 
 // Cast an ender pearl from liquid coralium
-Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:liquidcoralium> * 144, <minecraft:diamond>, true, 40);
+Casting.addTableRecipe(<minecraft:ender_pearl>, <liquid:liquidcoralium> * 250, <abyssalcraft:cpearl>, true, 40);
