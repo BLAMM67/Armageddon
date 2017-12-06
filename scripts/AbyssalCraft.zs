@@ -90,10 +90,11 @@ recipes.addShaped(<abyssalcraft:materializer>, [
 
 // Adding recipies so the necronomicons can be upgraded by copying from an already upgraded version
 recipes.remove(<abyssalcraft:necronomicon>);
-recipes.addShapeless(<abyssalcraft:necronomicon>, [<abyssalcraft:necronomicon>.reuse(), <minecraft:book>]);
-recipes.addShapeless(<abyssalcraft:necronomicon_cor>, [<abyssalcraft:necronomicon_cor>.reuse(), <abyssalcraft:necronomicon>]);
-recipes.addShapeless(<abyssalcraft:necronomicon_dre>, [<abyssalcraft:necronomicon_dre>.reuse(), <abyssalcraft:necronomicon_cor>]);
-recipes.addShapeless(<abyssalcraft:abyssalnomicon>, [<abyssalcraft:abyssalnomicon>.reuse(), <abyssalcraft:necronomicon_dre>]);
+recipes.addShapeless(<abyssalcraft:necronomicon:0>, [<abyssalcraft:necronomicon>.reuse(), <minecraft:book>]);
+recipes.addShapeless(<abyssalcraft:necronomicon_cor:0>, [<abyssalcraft:necronomicon_cor>.reuse(), <abyssalcraft:necronomicon>]);
+recipes.addShapeless(<abyssalcraft:necronomicon_dre:0>, [<abyssalcraft:necronomicon_dre>.reuse(), <abyssalcraft:necronomicon_cor>]);
+recipes.addShapeless(<abyssalcraft:necronomicon_omt:0>, [<abyssalcraft:necronomicon_omt>.reuse(), <abyssalcraft:necronomicon_dre>]);
+recipes.addShapeless(<abyssalcraft:abyssalnomicon:0>, [<abyssalcraft:abyssalnomicon>.reuse(), <abyssalcraft:necronomicon_omt>]);
 
 // Add recipes to duplicate keys
 recipes.addShaped(<abyssalcraft:gatewaykey>, [
