@@ -27,6 +27,7 @@
     "biome": ["Darklands","Darklands Forest", "Darklands Plains", "Darklands Highland", "Darklands Mountains"],
     "maxcount": "1,abyssalcraft.shadowcreature",
     "maxlight": 16,
+    "minheight": 64,
     "mobs": [
       {
         "mob": "abyssalcraft.shadowcreature",
