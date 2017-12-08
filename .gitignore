@@ -17,3 +17,4 @@ config/JEI/worldSettings.cfg
 config/InvTweaks.cfg
 config/MouseTweaks.cfg
 *.tws
+servers.dat
