@@ -16,3 +16,4 @@ usernamecache.json
 config/JEI/worldSettings.cfg
 config/InvTweaks.cfg
 config/MouseTweaks.cfg
+*.tws
