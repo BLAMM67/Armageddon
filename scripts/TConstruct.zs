@@ -96,3 +96,6 @@ MetalPress.addRecipe(<tconstruct:spaghetti>, <ore:cropWheat>, <immersiveengineer
 // Crusher recipes for cobalt and ardite
 Crusher.addRecipe(<tconstruct:shard>.withTag({Material: "cobalt"}) * 4, <tconstruct:ore>, 8000);
 Crusher.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4, <tconstruct:ore:1>, 8000);
+
+// Add bronze
+Smeltery.addAlloy(<liquid:bronze> * 4, [<liquid:copper> * 3, <liquid:tin> * 1]);
