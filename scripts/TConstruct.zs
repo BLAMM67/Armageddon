@@ -99,3 +99,10 @@ Crusher.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4, <tconstr
 
 // Add bronze
 Smeltery.addAlloy(<liquid:bronze> * 4, [<liquid:copper> * 3, <liquid:tin> * 1]);
+
+// Use WTF's salt peter as crushed tin
+recipes.removeShapeless(<minecraft:dye:15>,[<wtfcore:itemNitre>]);
+<wtfcore:itemNitre>.displayName = "Tin Powder";
+Crusher.addRecipe(<wtfcore:itemNitre> * 2, <abyssalcraft:abytinore>, 8000);
+Smeltery.addMelting(<liquid:tin> * 144, <wtfcore:itemNitre>, 200);
+
