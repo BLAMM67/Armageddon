@@ -12,7 +12,7 @@ recipes.remove(<ompd:hardened:4>);
 // Hardered blocks use the smeltery
 Casting.addBasinRecipe(<ompd:hardened>,   <liquid:concrete> * 125, <immersiveengineering:woodenDecoration:1>, true, 40);
 Casting.addBasinRecipe(<ompd:hardened:1>, <liquid:iron> * 72, <ompd:hardened>, true, 40);
-Casting.addBasinRecipe(<ompd:hardened:2>, <liquid:constantan> * 72, <ompd:hardened:1>, true, 20);
+Casting.addBasinRecipe(<ompd:hardened:2>, <liquid:bronze> * 72, <ompd:hardened:1>, true, 20);
 Casting.addBasinRecipe(<ompd:hardened:3>, <liquid:obsidian> * 72, <ompd:hardened:2>, true, 20);
 Casting.addBasinRecipe(<ompd:hardened:4>, <liquid:manyullyn> * 72, <ompd:hardened:3>, true, 20);
 
