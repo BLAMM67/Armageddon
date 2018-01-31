@@ -17,6 +17,35 @@ recipes.addShaped(<minecraft:slime>, [
 	[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>] 
 ]);
 
+// Clear glass should make bottle too
+recipes.removeShaped(<minecraft:glass_bottle>);
+recipes.addShaped(<minecraft:glass_bottle>, [
+	[<ore:blockGlass>, null, <ore:blockGlass>],
+	[null, <ore:blockGlass>, null]
+]);
+
+// Add a recipe for bottle of enchanting because so many sources of xp are missing
+val awkwardPotion = <minecraft:potion>.withTag({Potion: "minecraft:awkward"});
+recipes.addShaped(<minecraft:experience_bottle>, [
+	[null, <minecraft:coal>, null],
+	[<minecraft:coal>, awkwardPotion, <minecraft:coal>],
+	[null, <minecraft:coal>, null] 
+]);
+recipes.addShaped(<minecraft:experience_bottle>, [
+	[null, <minecraft:redstone>, null],
+	[<minecraft:redstone>, awkwardPotion, <minecraft:redstone>],
+	[null, <minecraft:redstone>, null] 
+]);
+recipes.addShaped(<minecraft:experience_bottle>, [
+	[null, <minecraft:dye:4>, null],
+	[<minecraft:dye:4>, awkwardPotion, <minecraft:dye:4>],
+	[null, <minecraft:dye:4>, null] 
+]);
+recipes.addShaped(<minecraft:experience_bottle>, [
+	[<minecraft:quartz>, awkwardPotion, <minecraft:quartz>]
+]);
+
+
 //Drop durability on all vanilla tools in case players get access to one
 mods.vanilla.Durability.set(<minecraft:wooden_axe>, 1);
 mods.vanilla.Durability.set(<minecraft:wooden_hoe>, 1);
@@ -97,10 +126,12 @@ AdvancedCrafting.addRecipe(<minecraft:diamond_horse_armor>, [
 	[<minecraft:diamond_leggings>, null, <minecraft:diamond_leggings>]],
 	[<minecraft:redstone> * 6, <minecraft:blaze_powder> * 3, <betterbeginnings:leather_strip> * 4, <minecraft:wool:*> * 2]);
 
+
 // Remove the vanilla furnace altogether
 recipes.remove(<minecraft:furnace>);
-mods.jei.JEI.hide(<minecraft:furnace>); // THIS DOESN'T WORK!
+//mods.jei.JEI.hide(<minecraft:furnace>); // THIS DOESN'T WORK!
 <minecraft:furnace>.addTooltip(format.red("DISABLED"));
+
 
 // Replace the furnace with the kiln in recipies
 recipes.remove(<minecraft:furnace_minecart>);
@@ -167,7 +198,6 @@ furnace.remove(<minecraft:iron_ingot>);
 //furnace.remove(<tconstruct:slime_channel:4>);
 //furnace.remove(<tconstruct:slime_channel>);
 //furnace.remove(<tconstruct:soil:4>);
-
 
 // Lets make a use for diamond tools since a few mobs drop them
 // Crusher: OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
