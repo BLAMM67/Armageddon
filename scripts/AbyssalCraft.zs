@@ -1,11 +1,20 @@
 import mods.abyssalcraft.necronomicon.internal;
 import mods.betterbeginnings.AdvancedCrafting;
+import mods.immersiveengineering.Crusher;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
 
 // AbyssalCraft Integration
 // https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods
 print("*** Tweaking AbyssalCraft ***");
+
+// Need more sources for sulphur
+val netherRackShard = <tconstruct:shard>.withTag({Material: "netherrack"});
+Crusher.addRecipe(netherRackShard, <minecraft:netherrack>, 4000, <abyssalcraft:sulfur>, 0.15);
+recipes.addShaped(<minecraft:netherrack>, [
+	[netherRackShard, netherRackShard],
+	[netherRackShard, netherRackShard]
+]);
 
 // Having the statues in an ore makes quests easier
 val oreStatue = <ore:statue>;
