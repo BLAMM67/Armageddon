@@ -139,11 +139,11 @@ mods.abyssalcraft.InfusionRitual.addRitual("gem_luck",
 	bookType, dimension, requiredEnergy, false, <ytgems:gem_luck>, potentiaGem,
 	[<abyssalcraft:crystalcluster:10>, 
 	<ore:gemLapis>, 
-	<minecraft:potion>.withTag({Potion: "minecraft:leaping"}), 
+	<minecraft:potion>.withTag({Potion: "minecraft:luck"}), 
 	<ore:gemLapis>,
 	<abyssalcraft:crystalcluster:10>, 
 	<ore:gemLapis>, 
-	<minecraft:potion>.withTag({Potion: "minecraft:leaping"}), 
+	<minecraft:potion>.withTag({Potion: "minecraft:luck"}), 
 	<ore:gemLapis>]);
 
 
