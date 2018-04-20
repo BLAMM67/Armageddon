@@ -17,8 +17,8 @@ recipes.addShaped(<minecraft:slime>, [
 	[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>] 
 ]);
 
-// Clear glass should make bottle too
-recipes.removeShaped(<minecraft:glass_bottle>);
+// All glass should make bottles
+recipes.removeShaped(<minecraft:glass_bottle> * 3);
 recipes.addShaped(<minecraft:glass_bottle>, [
 	[<ore:blockGlass>, null, <ore:blockGlass>],
 	[null, <ore:blockGlass>, null]
