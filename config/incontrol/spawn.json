@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["abyssalcraft.shadowcreature", "abyssalcraft.shadowmonster", "Bat", "Ghast", "PigZombie", "tconstruct.blueslime"," ToughAsNails.freeze"],
+    "mob": ["abyssalcraft.shadowcreature", "Bat", "Ghast", "PigZombie", "tconstruct.blueslime"," ToughAsNails.freeze"],
     "result": "allow"
   },
   {
