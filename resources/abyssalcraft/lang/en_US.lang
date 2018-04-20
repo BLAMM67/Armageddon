@@ -21,9 +21,14 @@ ac.ritual.gem_night_vision=Night Vision Gem
 ac.ritual.gem_night_vision.desc=
 ac.ritual.gem_jump_boost=Jump Boost Gem
 ac.ritual.gem_jump_boost.desc=
+ac.ritual.gem_luck=Luck Gem
+ac.ritual.gem_luck.desc=
 
 ac.ritual.abyssalcraft.odbcore=ODB Core
 ac.ritual.abyssalcraft.odbcore.desc=
 
 ac.ritual.abyssalcraft.exreaper=Ex-Reaper
 ac.ritual.abyssalcraft.exreaper.desc=
+
+ac.ritual.angelic_statue=Angelic Statue
+ac.ritual.angelic_statue.desc=This statue will grant you the favor of an avenging angel. With it's divine assistance you can use magic to heal, defend, or attack. Choose your path wisely.
