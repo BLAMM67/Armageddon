@@ -41,14 +41,27 @@ recipes.addShaped(<abyssalcraft:cloth>, [
 ]);
 
 // Add a ritual to create the Souls gauntlet
-// mods.abyssalcraft.EnchantmentRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <remnantHelp>, <enchantment>, [offerings], nbt*)
+//InfusionRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <livingSacrifice>, <item>, <sacrifice>, [offerings], nbt*, [tags]*);
 var bookType = 0;         //(0 = Normal, 1 = Abyssal Wasteland, 2 = Dreadlands, 3 = Omothol and 4 = Abyssalnomicon)
 var dimension = -1;       //Abyssal_Wasteland: 50, The_Dreadlands: 51, Omothol: 52, The_Dark_Realm: 53, Any: -1
 var requiredEnergy = 0.0;
-var remnantHelp = false;
+var livingSacrifice = false;
 mods.abyssalcraft.InfusionRitual.addRitual("soul_gauntlet",
-	bookType, dimension, requiredEnergy, remnantHelp, <souls:PickpocketGauntlet>, <minecraft:ender_pearl>, 
+	bookType, dimension, requiredEnergy, livingSacrifice, <souls:PickpocketGauntlet>, <minecraft:ender_pearl>, 
 	[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>, null, <minecraft:iron_ingot>, null, <minecraft:iron_ingot>]);
+
+// Add an infusion ritual for the Angel of Vengance statue
+bookType = 1;
+requiredEnergy = 500.0;
+
+val silver_sword = <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 473, HarvestLevel: 1, Attack: 6.0 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 5.0 as float, FreeModifiers: 3, Durability: 473, HarvestLevel: 1, Attack: 6.0 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["silver", "silver", "silver"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "holy", color: -3019530, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["holy", "toolleveling"]});
+
+mods.abyssalcraft.InfusionRitual.addRitual("angelic_statue", 
+	bookType, dimension, requiredEnergy, livingSacrifice, <aov:blocks/blockangelic>, <minecraft:quartz_block>, 
+	[<minecraft:golden_helmet>, <minecraft:ghast_tear>, <minecraft:shield>, 
+	<minecraft:potion>.withTag({Potion: "minecraft:strong_healing"}), <tconstruct:soil:4>, <minecraft:diamond>, 
+	silver_sword, <tconstruct:edible:3>]);
+
 
 // Drop the ODB, and modify the ODB Core
 recipes.remove(<abyssalcraft:odb>);
