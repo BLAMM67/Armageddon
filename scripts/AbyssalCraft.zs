@@ -70,7 +70,7 @@ bookType = 4;
 dimension = 53;
 requiredEnergy = 5000.0;
 mods.abyssalcraft.InfusionRitual.addRitual("abyssalcraft.odbcore",
-	bookType, dimension, requiredEnergy, remnantHelp, <abyssalcraft:odbcore>, <immersiveengineering:storage:5>, 
+	bookType, dimension, requiredEnergy, livingSacrifice, <abyssalcraft:odbcore>, <immersiveengineering:storage:5>, 
 	[<abyssalcraft:abyblock>, <abyssalcraft:platec>, <abyssalcraft:abyblock>, <abyssalcraft:platec>, <abyssalcraft:abyblock>, <abyssalcraft:platec>,<abyssalcraft:abyblock> ,<abyssalcraft:platec>]);
 
 // Add ritual to destroy Sacthoth's sword
@@ -78,7 +78,7 @@ bookType = 4;
 dimension = 53;
 requiredEnergy = 10000.0;
 mods.abyssalcraft.InfusionRitual.addRitual("abyssalcraft.exreaper",
-	bookType, dimension, requiredEnergy, remnantHelp, 
+	bookType, dimension, requiredEnergy, livingSacrifice, 
 	<minecraft:stick>.withTag({ench: [], display: {Lore: ["The transformed sword of Sacthoth"], color: "red", Name: "Ex-Reaper"}}), 
 	<abyssalcraft:soulreaper>.withTag({souls: 1024}), 
 	[<minecraft:nether_star>, 
